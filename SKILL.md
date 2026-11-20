@@ -4,7 +4,7 @@ description: "Multilingual Agent Skill for Tarot, I Ching 易经, BaZi 八字四
 license: AGPL-3.0-or-later
 compatibility: "Python 3.10+ for Tarot/I Ching offline stdlib; BaZi, 24 solar terms and natal charts require optional Swiss Ephemeris Python binding (AGPL). Default functions run offline; optional JPL audit performs explicit HTTPS requests on public test dates only. Birth data must remain private; model predictions not scientific."
 metadata:
-  version: "1.3.5-rc1"
+  version: "1.3.5"
   category: "symbolic-reflection"
 ---
 
