@@ -1,0 +1,846 @@
+{
+  "version": "1.2.0",
+  "type": "original_reflection_themes_not_classical_text",
+  "languages": [
+    "en",
+    "zh",
+    "ja",
+    "fr",
+    "es",
+    "pt"
+  ],
+  "hexagrams": [
+    {
+      "number": 1,
+      "name_zh": "乾",
+      "pinyin": "Qian",
+      "themes": {
+        "en": "creative initiative",
+        "zh": "主动创造",
+        "ja": "創造の始まり",
+        "fr": "initiative créative",
+        "es": "iniciativa creativa",
+        "pt": "iniciativa criativa"
+      }
+    },
+    {
+      "number": 2,
+      "name_zh": "坤",
+      "pinyin": "Kun",
+      "themes": {
+        "en": "receptive support",
+        "zh": "包容与承载",
+        "ja": "受け止める力",
+        "fr": "soutien réceptif",
+        "es": "apoyo receptivo",
+        "pt": "apoio receptivo"
+      }
+    },
+    {
+      "number": 3,
+      "name_zh": "屯",
+      "pinyin": "Zhun",
+      "themes": {
+        "en": "difficulty at the beginning",
+        "zh": "初始的困难",
+        "ja": "始まりの困難",
+        "fr": "difficultés du début",
+        "es": "dificultad inicial",
+        "pt": "dificuldade inicial"
+      }
+    },
+    {
+      "number": 4,
+      "name_zh": "蒙",
+      "pinyin": "Meng",
+      "themes": {
+        "en": "learning amid uncertainty",
+        "zh": "蒙昧中的学习",
+        "ja": "不確かさから学ぶ",
+        "fr": "apprendre dans l'incertitude",
+        "es": "aprender en la incertidumbre",
+        "pt": "aprender na incerteza"
+      }
+    },
+    {
+      "number": 5,
+      "name_zh": "需",
+      "pinyin": "Xu",
+      "themes": {
+        "en": "patient preparation",
+        "zh": "耐心准备",
+        "ja": "待ちながら備える",
+        "fr": "préparation patiente",
+        "es": "preparación paciente",
+        "pt": "preparo paciente"
+      }
+    },
+    {
+      "number": 6,
+      "name_zh": "讼",
+      "pinyin": "Song",
+      "themes": {
+        "en": "resolving disagreement",
+        "zh": "化解争执",
+        "ja": "争いを整える",
+        "fr": "résoudre un conflit",
+        "es": "resolver conflictos",
+        "pt": "resolver conflitos"
+      }
+    },
+    {
+      "number": 7,
+      "name_zh": "师",
+      "pinyin": "Shi",
+      "themes": {
+        "en": "organized collective action",
+        "zh": "有序协作",
+        "ja": "組織的な協力",
+        "fr": "action collective organisée",
+        "es": "acción colectiva organizada",
+        "pt": "ação coletiva organizada"
+      }
+    },
+    {
+      "number": 8,
+      "name_zh": "比",
+      "pinyin": "Bi",
+      "themes": {
+        "en": "mutual belonging",
+        "zh": "相互亲近",
+        "ja": "互いの結びつき",
+        "fr": "appartenance réciproque",
+        "es": "pertenencia mutua",
+        "pt": "pertencimento mútuo"
+      }
+    },
+    {
+      "number": 9,
+      "name_zh": "小畜",
+      "pinyin": "Xiao Xu",
+      "themes": {
+        "en": "small steady effort",
+        "zh": "小步积累",
+        "ja": "小さな積み重ね",
+        "fr": "effort régulier",
+        "es": "esfuerzo constante",
+        "pt": "esforço constante"
+      }
+    },
+    {
+      "number": 10,
+      "name_zh": "履",
+      "pinyin": "Lü",
+      "themes": {
+        "en": "careful conduct",
+        "zh": "审慎行事",
+        "ja": "慎重な行動",
+        "fr": "conduite prudente",
+        "es": "conducta prudente",
+        "pt": "conduta prudente"
+      }
+    },
+    {
+      "number": 11,
+      "name_zh": "泰",
+      "pinyin": "Tai",
+      "themes": {
+        "en": "balanced flourishing",
+        "zh": "通达与和谐",
+        "ja": "調和ある発展",
+        "fr": "épanouissement équilibré",
+        "es": "prosperidad equilibrada",
+        "pt": "florescimento equilibrado"
+      }
+    },
+    {
+      "number": 12,
+      "name_zh": "否",
+      "pinyin": "Pi",
+      "themes": {
+        "en": "stagnation and boundaries",
+        "zh": "停滞与边界",
+        "ja": "停滞と境界",
+        "fr": "stagnation et limites",
+        "es": "estancamiento y límites",
+        "pt": "estagnação e limites"
+      }
+    },
+    {
+      "number": 13,
+      "name_zh": "同人",
+      "pinyin": "Tong Ren",
+      "themes": {
+        "en": "connection across differences",
+        "zh": "跨越差异的同心",
+        "ja": "違いを越えるつながり",
+        "fr": "union dans la différence",
+        "es": "unión en la diferencia",
+        "pt": "união na diferença"
+      }
+    },
+    {
+      "number": 14,
+      "name_zh": "大有",
+      "pinyin": "Da You",
+      "themes": {
+        "en": "responsible abundance",
+        "zh": "有度的丰盛",
+        "ja": "豊かさへの責任",
+        "fr": "abondance responsable",
+        "es": "abundancia responsable",
+        "pt": "abundância responsável"
+      }
+    },
+    {
+      "number": 15,
+      "name_zh": "谦",
+      "pinyin": "Qian",
+      "themes": {
+        "en": "humility and proportion",
+        "zh": "谦逊与分寸",
+        "ja": "謙虚さと節度",
+        "fr": "humilité et mesure",
+        "es": "humildad y medida",
+        "pt": "humildade e medida"
+      }
+    },
+    {
+      "number": 16,
+      "name_zh": "豫",
+      "pinyin": "Yu",
+      "themes": {
+        "en": "enthusiasm with preparation",
+        "zh": "有准备的热情",
+        "ja": "備えのある熱意",
+        "fr": "enthousiasme préparé",
+        "es": "entusiasmo preparado",
+        "pt": "entusiasmo com preparo"
+      }
+    },
+    {
+      "number": 17,
+      "name_zh": "随",
+      "pinyin": "Sui",
+      "themes": {
+        "en": "adaptive following",
+        "zh": "灵活顺应",
+        "ja": "柔軟に従う",
+        "fr": "suivre avec discernement",
+        "es": "seguir con criterio",
+        "pt": "seguir com discernimento"
+      }
+    },
+    {
+      "number": 18,
+      "name_zh": "蛊",
+      "pinyin": "Gu",
+      "themes": {
+        "en": "repairing what is spoiled",
+        "zh": "修复旧弊",
+        "ja": "古い問題を正す",
+        "fr": "réparer les dommages",
+        "es": "reparar deterioros",
+        "pt": "reparar danos"
+      }
+    },
+    {
+      "number": 19,
+      "name_zh": "临",
+      "pinyin": "Lin",
+      "themes": {
+        "en": "approaching with care",
+        "zh": "谨慎接近",
+        "ja": "慎重に近づく",
+        "fr": "approche attentive",
+        "es": "acercamiento cuidadoso",
+        "pt": "aproximação cuidadosa"
+      }
+    },
+    {
+      "number": 20,
+      "name_zh": "观",
+      "pinyin": "Guan",
+      "themes": {
+        "en": "observing the whole",
+        "zh": "纵览全局",
+        "ja": "全体を見渡す",
+        "fr": "observer l'ensemble",
+        "es": "observar el conjunto",
+        "pt": "observar o conjunto"
+      }
+    },
+    {
+      "number": 21,
+      "name_zh": "噬嗑",
+      "pinyin": "Shi He",
+      "themes": {
+        "en": "decisive clarity",
+        "zh": "清晰决断",
+        "ja": "明確な判断",
+        "fr": "clarté décisive",
+        "es": "claridad decisiva",
+        "pt": "clareza decisiva"
+      }
+    },
+    {
+      "number": 22,
+      "name_zh": "贲",
+      "pinyin": "Bi",
+      "themes": {
+        "en": "form and substance",
+        "zh": "形式与内涵",
+        "ja": "形式と中身",
+        "fr": "forme et fond",
+        "es": "forma y fondo",
+        "pt": "forma e essência"
+      }
+    },
+    {
+      "number": 23,
+      "name_zh": "剥",
+      "pinyin": "Bo",
+      "themes": {
+        "en": "letting go of decline",
+        "zh": "面对剥落",
+        "ja": "衰えを受け入れる",
+        "fr": "laisser tomber l'ancien",
+        "es": "soltar lo que decae",
+        "pt": "soltar o que declina"
+      }
+    },
+    {
+      "number": 24,
+      "name_zh": "复",
+      "pinyin": "Fu",
+      "themes": {
+        "en": "return to essentials",
+        "zh": "回归根本",
+        "ja": "大切なものへ戻る",
+        "fr": "retour à l'essentiel",
+        "es": "volver a lo esencial",
+        "pt": "voltar ao essencial"
+      }
+    },
+    {
+      "number": 25,
+      "name_zh": "无妄",
+      "pinyin": "Wu Wang",
+      "themes": {
+        "en": "unforced integrity",
+        "zh": "不妄为的诚实",
+        "ja": "無理のない誠実さ",
+        "fr": "intégrité sans artifice",
+        "es": "integridad sin artificio",
+        "pt": "integridade sem artifício"
+      }
+    },
+    {
+      "number": 26,
+      "name_zh": "大畜",
+      "pinyin": "Da Xu",
+      "themes": {
+        "en": "cultivating strength",
+        "zh": "培育力量",
+        "ja": "力を養う",
+        "fr": "cultiver la force",
+        "es": "cultivar fortaleza",
+        "pt": "cultivar força"
+      }
+    },
+    {
+      "number": 27,
+      "name_zh": "颐",
+      "pinyin": "Yi",
+      "themes": {
+        "en": "nourishment and words",
+        "zh": "滋养与言语",
+        "ja": "養いと言葉",
+        "fr": "nourriture et parole",
+        "es": "nutrición y palabras",
+        "pt": "nutrição e palavras"
+      }
+    },
+    {
+      "number": 28,
+      "name_zh": "大过",
+      "pinyin": "Da Guo",
+      "themes": {
+        "en": "excessive load",
+        "zh": "过重负担",
+        "ja": "重すぎる負担",
+        "fr": "charge excessive",
+        "es": "carga excesiva",
+        "pt": "carga excessiva"
+      }
+    },
+    {
+      "number": 29,
+      "name_zh": "坎",
+      "pinyin": "Kan",
+      "themes": {
+        "en": "meeting danger thoughtfully",
+        "zh": "慎对险境",
+        "ja": "危険に慎重に向き合う",
+        "fr": "affronter le danger",
+        "es": "afrontar el peligro",
+        "pt": "enfrentar o perigo"
+      }
+    },
+    {
+      "number": 30,
+      "name_zh": "离",
+      "pinyin": "Li",
+      "themes": {
+        "en": "clarity and interdependence",
+        "zh": "明朗与相依",
+        "ja": "明晰さと相互依存",
+        "fr": "clarté et interdépendance",
+        "es": "claridad e interdependencia",
+        "pt": "clareza e interdependência"
+      }
+    },
+    {
+      "number": 31,
+      "name_zh": "咸",
+      "pinyin": "Xian",
+      "themes": {
+        "en": "mutual attraction",
+        "zh": "相互感应",
+        "ja": "互いに響き合う",
+        "fr": "attraction réciproque",
+        "es": "atracción mutua",
+        "pt": "atração mútua"
+      }
+    },
+    {
+      "number": 32,
+      "name_zh": "恒",
+      "pinyin": "Heng",
+      "themes": {
+        "en": "steadfast continuity",
+        "zh": "恒久与持续",
+        "ja": "持続する姿勢",
+        "fr": "continuité fidèle",
+        "es": "continuidad constante",
+        "pt": "continuidade fiel"
+      }
+    },
+    {
+      "number": 33,
+      "name_zh": "遁",
+      "pinyin": "Dun",
+      "themes": {
+        "en": "strategic retreat",
+        "zh": "适时退让",
+        "ja": "適切に退く",
+        "fr": "retrait stratégique",
+        "es": "retirada oportuna",
+        "pt": "recuo oportuno"
+      }
+    },
+    {
+      "number": 34,
+      "name_zh": "大壮",
+      "pinyin": "Da Zhuang",
+      "themes": {
+        "en": "power with restraint",
+        "zh": "有节制的力量",
+        "ja": "節度ある力",
+        "fr": "puissance maîtrisée",
+        "es": "poder con mesura",
+        "pt": "poder com medida"
+      }
+    },
+    {
+      "number": 35,
+      "name_zh": "晋",
+      "pinyin": "Jin",
+      "themes": {
+        "en": "advancing into visibility",
+        "zh": "逐渐显现",
+        "ja": "前進し姿を現す",
+        "fr": "progression visible",
+        "es": "avance visible",
+        "pt": "avanço visível"
+      }
+    },
+    {
+      "number": 36,
+      "name_zh": "明夷",
+      "pinyin": "Ming Yi",
+      "themes": {
+        "en": "protecting inner light",
+        "zh": "守护内在光亮",
+        "ja": "内なる光を守る",
+        "fr": "protéger sa lumière",
+        "es": "proteger la luz interior",
+        "pt": "proteger a luz interior"
+      }
+    },
+    {
+      "number": 37,
+      "name_zh": "家人",
+      "pinyin": "Jia Ren",
+      "themes": {
+        "en": "home and shared roles",
+        "zh": "家人及责任",
+        "ja": "家庭と役割",
+        "fr": "foyer et rôles partagés",
+        "es": "hogar y roles",
+        "pt": "lar e papéis compartilhados"
+      }
+    },
+    {
+      "number": 38,
+      "name_zh": "睽",
+      "pinyin": "Kui",
+      "themes": {
+        "en": "reconciling opposites",
+        "zh": "求同存异",
+        "ja": "違いを調える",
+        "fr": "réconcilier les contraires",
+        "es": "conciliar opuestos",
+        "pt": "conciliar opostos"
+      }
+    },
+    {
+      "number": 39,
+      "name_zh": "蹇",
+      "pinyin": "Jian",
+      "themes": {
+        "en": "obstacles and patience",
+        "zh": "困难与耐心",
+        "ja": "障害と忍耐",
+        "fr": "obstacles et patience",
+        "es": "obstáculos y paciencia",
+        "pt": "obstáculos e paciência"
+      }
+    },
+    {
+      "number": 40,
+      "name_zh": "解",
+      "pinyin": "Jie",
+      "themes": {
+        "en": "release from tension",
+        "zh": "化解困境",
+        "ja": "緊張からの解放",
+        "fr": "se libérer des tensions",
+        "es": "liberarse de tensiones",
+        "pt": "libertar-se das tensões"
+      }
+    },
+    {
+      "number": 41,
+      "name_zh": "损",
+      "pinyin": "Sun",
+      "themes": {
+        "en": "measured reduction",
+        "zh": "适度减少",
+        "ja": "適切に減らす",
+        "fr": "réduire avec mesure",
+        "es": "reducir con criterio",
+        "pt": "reduzir com medida"
+      }
+    },
+    {
+      "number": 42,
+      "name_zh": "益",
+      "pinyin": "Yi",
+      "themes": {
+        "en": "helpful increase",
+        "zh": "有益的增益",
+        "ja": "有益な増加",
+        "fr": "croissance bénéfique",
+        "es": "crecimiento provechoso",
+        "pt": "crescimento benéfico"
+      }
+    },
+    {
+      "number": 43,
+      "name_zh": "夬",
+      "pinyin": "Guai",
+      "themes": {
+        "en": "a necessary breakthrough",
+        "zh": "必要的决断",
+        "ja": "必要な突破",
+        "fr": "percée nécessaire",
+        "es": "avance decisivo",
+        "pt": "avanço decisivo"
+      }
+    },
+    {
+      "number": 44,
+      "name_zh": "姤",
+      "pinyin": "Gou",
+      "themes": {
+        "en": "unexpected encounter",
+        "zh": "意外相遇",
+        "ja": "予期せぬ出会い",
+        "fr": "rencontre inattendue",
+        "es": "encuentro inesperado",
+        "pt": "encontro inesperado"
+      }
+    },
+    {
+      "number": 45,
+      "name_zh": "萃",
+      "pinyin": "Cui",
+      "themes": {
+        "en": "gathering and community",
+        "zh": "聚合与共同体",
+        "ja": "集まりと共同体",
+        "fr": "rassemblement et communauté",
+        "es": "reunión y comunidad",
+        "pt": "reunião e comunidade"
+      }
+    },
+    {
+      "number": 46,
+      "name_zh": "升",
+      "pinyin": "Sheng",
+      "themes": {
+        "en": "gradual ascent",
+        "zh": "循序上升",
+        "ja": "段階的な上昇",
+        "fr": "ascension progressive",
+        "es": "ascenso gradual",
+        "pt": "ascensão gradual"
+      }
+    },
+    {
+      "number": 47,
+      "name_zh": "困",
+      "pinyin": "Kun",
+      "themes": {
+        "en": "constraint and resilience",
+        "zh": "困顿与韧性",
+        "ja": "制約としなやかさ",
+        "fr": "contrainte et résilience",
+        "es": "limitación y resiliencia",
+        "pt": "limitação e resiliência"
+      }
+    },
+    {
+      "number": 48,
+      "name_zh": "井",
+      "pinyin": "Jing",
+      "themes": {
+        "en": "renewable source",
+        "zh": "更新的源泉",
+        "ja": "尽きない源",
+        "fr": "source à renouveler",
+        "es": "fuente renovable",
+        "pt": "fonte renovável"
+      }
+    },
+    {
+      "number": 49,
+      "name_zh": "革",
+      "pinyin": "Ge",
+      "themes": {
+        "en": "principled change",
+        "zh": "有根据的变革",
+        "ja": "根拠ある変革",
+        "fr": "changement fondé",
+        "es": "cambio fundamentado",
+        "pt": "mudança fundamentada"
+      }
+    },
+    {
+      "number": 50,
+      "name_zh": "鼎",
+      "pinyin": "Ding",
+      "themes": {
+        "en": "reshaping old forms",
+        "zh": "更新旧器",
+        "ja": "古い形を変える",
+        "fr": "renouveler les formes",
+        "es": "renovar estructuras",
+        "pt": "renovar estruturas"
+      }
+    },
+    {
+      "number": 51,
+      "name_zh": "震",
+      "pinyin": "Zhen",
+      "themes": {
+        "en": "shaking and response",
+        "zh": "震动与应对",
+        "ja": "揺れと対応",
+        "fr": "secousse et réponse",
+        "es": "sacudida y respuesta",
+        "pt": "abalo e resposta"
+      }
+    },
+    {
+      "number": 52,
+      "name_zh": "艮",
+      "pinyin": "Gen",
+      "themes": {
+        "en": "stillness with awareness",
+        "zh": "静止与觉察",
+        "ja": "静けさと気づき",
+        "fr": "immobilité attentive",
+        "es": "quietud consciente",
+        "pt": "quietude consciente"
+      }
+    },
+    {
+      "number": 53,
+      "name_zh": "渐",
+      "pinyin": "Jian",
+      "themes": {
+        "en": "gradual development",
+        "zh": "渐进成长",
+        "ja": "着実な成長",
+        "fr": "développement progressif",
+        "es": "desarrollo gradual",
+        "pt": "desenvolvimento gradual"
+      }
+    },
+    {
+      "number": 54,
+      "name_zh": "归妹",
+      "pinyin": "Gui Mei",
+      "themes": {
+        "en": "uneven partnership",
+        "zh": "不对等的结合",
+        "ja": "不均衡な結びつき",
+        "fr": "union déséquilibrée",
+        "es": "unión desigual",
+        "pt": "união desigual"
+      }
+    },
+    {
+      "number": 55,
+      "name_zh": "丰",
+      "pinyin": "Feng",
+      "themes": {
+        "en": "abundance with limits",
+        "zh": "丰盛中的分寸",
+        "ja": "豊かさと節度",
+        "fr": "abondance et limites",
+        "es": "abundancia con límites",
+        "pt": "abundância com limites"
+      }
+    },
+    {
+      "number": 56,
+      "name_zh": "旅",
+      "pinyin": "Lü",
+      "themes": {
+        "en": "travel and unfamiliarity",
+        "zh": "旅途与陌生",
+        "ja": "旅と未知",
+        "fr": "voyage et inconnu",
+        "es": "viaje y desconocido",
+        "pt": "viagem e desconhecido"
+      }
+    },
+    {
+      "number": 57,
+      "name_zh": "巽",
+      "pinyin": "Xun",
+      "themes": {
+        "en": "gentle influence",
+        "zh": "柔和的影响",
+        "ja": "穏やかな影響",
+        "fr": "influence douce",
+        "es": "influencia suave",
+        "pt": "influência suave"
+      }
+    },
+    {
+      "number": 58,
+      "name_zh": "兑",
+      "pinyin": "Dui",
+      "themes": {
+        "en": "joyful exchange",
+        "zh": "喜悦交流",
+        "ja": "喜びある交流",
+        "fr": "échange joyeux",
+        "es": "intercambio alegre",
+        "pt": "troca alegre"
+      }
+    },
+    {
+      "number": 59,
+      "name_zh": "涣",
+      "pinyin": "Huan",
+      "themes": {
+        "en": "dispersion and regrouping",
+        "zh": "涣散与重聚",
+        "ja": "散らばりと再結集",
+        "fr": "dispersion et regroupement",
+        "es": "dispersión y reencuentro",
+        "pt": "dispersão e reencontro"
+      }
+    },
+    {
+      "number": 60,
+      "name_zh": "节",
+      "pinyin": "Jie",
+      "themes": {
+        "en": "healthy limits",
+        "zh": "适当节制",
+        "ja": "健全な節度",
+        "fr": "limites saines",
+        "es": "límites sanos",
+        "pt": "limites saudáveis"
+      }
+    },
+    {
+      "number": 61,
+      "name_zh": "中孚",
+      "pinyin": "Zhong Fu",
+      "themes": {
+        "en": "sincere trust",
+        "zh": "真诚信任",
+        "ja": "誠実な信頼",
+        "fr": "confiance sincère",
+        "es": "confianza sincera",
+        "pt": "confiança sincera"
+      }
+    },
+    {
+      "number": 62,
+      "name_zh": "小过",
+      "pinyin": "Xiao Guo",
+      "themes": {
+        "en": "small careful steps",
+        "zh": "小步谨行",
+        "ja": "小さく慎重な一歩",
+        "fr": "petits pas prudents",
+        "es": "pasos pequeños y prudentes",
+        "pt": "pequenos passos prudentes"
+      }
+    },
+    {
+      "number": 63,
+      "name_zh": "既济",
+      "pinyin": "Ji Ji",
+      "themes": {
+        "en": "completion that needs care",
+        "zh": "完成后的维护",
+        "ja": "達成後の手入れ",
+        "fr": "acquis à préserver",
+        "es": "cuidar lo logrado",
+        "pt": "cuidar do realizado"
+      }
+    },
+    {
+      "number": 64,
+      "name_zh": "未济",
+      "pinyin": "Wei Ji",
+      "themes": {
+        "en": "unfinished transition",
+        "zh": "未竟的过渡",
+        "ja": "未完の移行",
+        "fr": "transition inachevée",
+        "es": "transición inacabada",
+        "pt": "transição inacabada"
+      }
+    }
+  ]
+}

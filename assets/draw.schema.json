@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Symbolic Reflection Support draw response (v1.1)",
+  "description": "Subset schema for the offline draw CLI. Some fields are source/method dependent.",
+  "type": "object",
+  "required": ["schema_version", "tool_version", "method", "provenance"],
+  "properties": {
+    "schema_version": {"type": "string", "const": "1.1"},
+    "tool_version": {"type": "string"},
+    "method": {"type": "string"},
+    "cards": {
+      "type": "array", "minItems": 1, "maxItems": 78,
+      "items": {
+        "type": "object", "required": ["id", "card", "card_zh", "orientation"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^rws-[0-7][0-9]$"},
+          "card": {"type": "string"},
+          "card_zh": {"type": "string"},
+          "orientation": {"enum": ["upright", "reversed"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "line_values_bottom_to_top": {
+      "type": "array", "minItems": 6, "maxItems": 6,
+      "items": {"type": "integer", "enum": [6, 7, 8, 9]}
+    },
+    "coins_bottom_to_top": {
+      "type": "array", "minItems": 6, "maxItems": 6,
+      "items": {
+        "type": "array", "minItems": 3, "maxItems": 3,
+        "items": {"type": "integer", "enum": [2, 3]}
+      }
+    },
+    "moving_lines_from_bottom": {
+      "type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 6}
+    },
+    "primary": {"$ref": "#/$defs/hexagram"},
+    "resulting": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/hexagram"}]},
+    "provenance": {
+      "type": "object",
+      "required": ["source", "generated_at_utc", "payload_sha256", "digest_scope"],
+      "properties": {
+        "source": {"enum": ["local_system_random", "seeded_demo", "user_supplied_lines", "user_supplied_coins"]},
+        "generated_at_utc": {"type": "string"},
+        "payload_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "digest_scope": {"type": "string"},
+        "seed": {"type": "integer"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "hexagram": {
+      "type": "object", "required": ["lower", "upper", "number", "name_zh"],
+      "properties": {
+        "lower": {"type": "string"},
+        "upper": {"type": "string"},
+        "number": {"type": "integer", "minimum": 1, "maximum": 64},
+        "name_zh": {"type": "string"}
+      },
+      "additionalProperties": false
+    }
+  }
+}

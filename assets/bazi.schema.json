@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BaZi four pillars and conventional luck-cycle calculation",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.3.0"
+    },
+    "astronomy": {
+      "type": "object",
+      "required": [
+        "library",
+        "library_version",
+        "requested_ephemeris",
+        "effective_ephemeris",
+        "license"
+      ],
+      "properties": {
+        "requested_ephemeris": {
+          "enum": [
+            "moseph",
+            "swieph"
+          ]
+        },
+        "effective_ephemeris": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "predictions_supported": {
+      "const": false
+    },
+    "kind": {
+      "const": "bazi_calculation"
+    },
+    "local_datetime": {
+      "type": "string"
+    },
+    "utc_datetime": {
+      "type": "string"
+    },
+    "iana_timezone": {
+      "type": "string"
+    },
+    "pillars": {
+      "type": "object",
+      "required": [
+        "year",
+        "month",
+        "day",
+        "hour",
+        "eight_characters",
+        "day_master",
+        "basis"
+      ],
+      "properties": {
+        "eight_characters": {
+          "type": "string",
+          "minLength": 8,
+          "maxLength": 8
+        },
+        "basis": {
+          "type": "object"
+        }
+      }
+    },
+    "luck_cycles": {
+      "type": "object"
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "kind",
+    "astronomy",
+    "local_datetime",
+    "utc_datetime",
+    "pillars",
+    "luck_cycles",
+    "predictions_supported"
+  ]
+}

@@ -1,0 +1,726 @@
+{
+  "schema_version": "1.3.1",
+  "kind": "independent_low_precision_ephemeris_QA",
+  "status": "PASS_MODEL_LEVEL",
+  "reference_model": "NASA/JPL SSD published low-accuracy Table 1, truncated lunar harmonics, independent ASC/MC geometry",
+  "engine_dependency": "Swiss Ephemeris only for target/output, NOT for reference model",
+  "pass_scope": "9/10 natal bodies + ASC + MC per epoch; Pluto omitted; tolerances model-level, NOT arcseconds",
+  "dates_tested": 6,
+  "measurements": 66,
+  "passes": 66,
+  "cases": [
+    {
+      "utc": "2000-01-01T12:00:00+00:00",
+      "latitude_deg": 51.4779,
+      "longitude_deg": 0.0,
+      "effective_swiss_engine": [
+        "moseph"
+      ],
+      "checks": [
+        {
+          "body": "Sun",
+          "swiss_deg": 280.3689197,
+          "independent_reference_deg": 280.3801802,
+          "angular_difference_deg": 0.0112605,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Moon",
+          "swiss_deg": 223.3237754,
+          "independent_reference_deg": 223.2467118,
+          "angular_difference_deg": 0.0770636,
+          "qa_tolerance_deg": 0.35,
+          "pass": true,
+          "independent_model": "truncated lunar harmonics"
+        },
+        {
+          "body": "Mercury",
+          "swiss_deg": 271.889275,
+          "independent_reference_deg": 271.9064173,
+          "angular_difference_deg": 0.0171423,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Venus",
+          "swiss_deg": 241.5657983,
+          "independent_reference_deg": 241.5782895,
+          "angular_difference_deg": 0.0124912,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Mars",
+          "swiss_deg": 327.9633133,
+          "independent_reference_deg": 327.9760628,
+          "angular_difference_deg": 0.0127495,
+          "qa_tolerance_deg": 0.25,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Jupiter",
+          "swiss_deg": 25.2530303,
+          "independent_reference_deg": 25.3532552,
+          "angular_difference_deg": 0.1002249,
+          "qa_tolerance_deg": 0.45,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Saturn",
+          "swiss_deg": 40.395639,
+          "independent_reference_deg": 40.2396216,
+          "angular_difference_deg": 0.1560174,
+          "qa_tolerance_deg": 0.5,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Uranus",
+          "swiss_deg": 314.8092232,
+          "independent_reference_deg": 314.800156,
+          "angular_difference_deg": 0.0090672,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Neptune",
+          "swiss_deg": 303.1929812,
+          "independent_reference_deg": 303.1910911,
+          "angular_difference_deg": 0.0018901,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "ASC",
+          "swiss_deg": 24.2661892,
+          "independent_reference_deg": 24.2762567,
+          "angular_difference_deg": 0.0100675,
+          "qa_tolerance_deg": 0.1,
+          "pass": true,
+          "independent_model": "mean sidereal time + geometric horizon/meridian"
+        },
+        {
+          "body": "MC",
+          "swiss_deg": 279.6110878,
+          "independent_reference_deg": 279.614243,
+          "angular_difference_deg": 0.0031552,
+          "qa_tolerance_deg": 0.06,
+          "pass": true,
+          "independent_model": "mean sidereal time + geometric horizon/meridian"
+        }
+      ],
+      "count": 11,
+      "passed": 11,
+      "status": "PASS_MODEL_LEVEL",
+      "not_covered": [
+        "Pluto",
+        "Placidus/other house cusps",
+        "JPL Horizons/DE-series high-accuracy comparison"
+      ]
+    },
+    {
+      "utc": "2010-08-15T09:00:00+00:00",
+      "latitude_deg": 40.7128,
+      "longitude_deg": -74.006,
+      "effective_swiss_engine": [
+        "moseph"
+      ],
+      "checks": [
+        {
+          "body": "Sun",
+          "swiss_deg": 142.445848,
+          "independent_reference_deg": 142.4424651,
+          "angular_difference_deg": 0.0033829,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Moon",
+          "swiss_deg": 214.9796001,
+          "independent_reference_deg": 214.995802,
+          "angular_difference_deg": 0.0162019,
+          "qa_tolerance_deg": 0.35,
+          "pass": true,
+          "independent_model": "truncated lunar harmonics"
+        },
+        {
+          "body": "Mercury",
+          "swiss_deg": 167.7680839,
+          "independent_reference_deg": 167.7616106,
+          "angular_difference_deg": 0.0064733,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Venus",
+          "swiss_deg": 188.3228242,
+          "independent_reference_deg": 188.3164473,
+          "angular_difference_deg": 0.0063769,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Mars",
+          "swiss_deg": 190.1576259,
+          "independent_reference_deg": 190.1560234,
+          "angular_difference_deg": 0.0016026,
+          "qa_tolerance_deg": 0.25,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Jupiter",
+          "swiss_deg": 2.555103,
+          "independent_reference_deg": 2.5548021,
+          "angular_difference_deg": 0.000301,
+          "qa_tolerance_deg": 0.45,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Saturn",
+          "swiss_deg": 182.2875416,
+          "independent_reference_deg": 182.1844465,
+          "angular_difference_deg": 0.1030951,
+          "qa_tolerance_deg": 0.5,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Uranus",
+          "swiss_deg": 359.9646615,
+          "independent_reference_deg": 359.9621112,
+          "angular_difference_deg": 0.0025503,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Neptune",
+          "swiss_deg": 327.4359112,
+          "independent_reference_deg": 327.4278053,
+          "angular_difference_deg": 0.0081059,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "ASC",
+          "swiss_deg": 128.5864537,
+          "independent_reference_deg": 128.582681,
+          "angular_difference_deg": 0.0037727,
+          "qa_tolerance_deg": 0.1,
+          "pass": true,
+          "independent_model": "mean sidereal time + geometric horizon/meridian"
+        },
+        {
+          "body": "MC",
+          "swiss_deg": 26.5851984,
+          "independent_reference_deg": 26.5803103,
+          "angular_difference_deg": 0.0048881,
+          "qa_tolerance_deg": 0.06,
+          "pass": true,
+          "independent_model": "mean sidereal time + geometric horizon/meridian"
+        }
+      ],
+      "count": 11,
+      "passed": 11,
+      "status": "PASS_MODEL_LEVEL",
+      "not_covered": [
+        "Pluto",
+        "Placidus/other house cusps",
+        "JPL Horizons/DE-series high-accuracy comparison"
+      ]
+    },
+    {
+      "utc": "2024-06-21T00:00:00+00:00",
+      "latitude_deg": 35.6762,
+      "longitude_deg": 139.6503,
+      "effective_swiss_engine": [
+        "moseph"
+      ],
+      "checks": [
+        {
+          "body": "Sun",
+          "swiss_deg": 90.1252052,
+          "independent_reference_deg": 90.131075,
+          "angular_difference_deg": 0.0058698,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Moon",
+          "swiss_deg": 257.080668,
+          "independent_reference_deg": 256.9976722,
+          "angular_difference_deg": 0.0829958,
+          "qa_tolerance_deg": 0.35,
+          "pass": true,
+          "independent_model": "truncated lunar harmonics"
+        },
+        {
+          "body": "Mercury",
+          "swiss_deg": 97.772281,
+          "independent_reference_deg": 97.7873628,
+          "angular_difference_deg": 0.0150818,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Venus",
+          "swiss_deg": 94.5896065,
+          "independent_reference_deg": 94.6015256,
+          "angular_difference_deg": 0.0119191,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Mars",
+          "swiss_deg": 38.7057146,
+          "independent_reference_deg": 38.7191284,
+          "angular_difference_deg": 0.0134137,
+          "qa_tolerance_deg": 0.25,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Jupiter",
+          "swiss_deg": 66.0102779,
+          "independent_reference_deg": 65.9773302,
+          "angular_difference_deg": 0.0329476,
+          "qa_tolerance_deg": 0.45,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Saturn",
+          "swiss_deg": 349.3634572,
+          "independent_reference_deg": 349.4443985,
+          "angular_difference_deg": 0.0809414,
+          "qa_tolerance_deg": 0.5,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Uranus",
+          "swiss_deg": 55.2422684,
+          "independent_reference_deg": 55.2631985,
+          "angular_difference_deg": 0.0209302,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Neptune",
+          "swiss_deg": 359.8963182,
+          "independent_reference_deg": 359.8918452,
+          "angular_difference_deg": 0.004473,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "ASC",
+          "swiss_deg": 146.4181944,
+          "independent_reference_deg": 146.418567,
+          "angular_difference_deg": 0.0003726,
+          "qa_tolerance_deg": 0.1,
+          "pass": true,
+          "independent_model": "mean sidereal time + geometric horizon/meridian"
+        },
+        {
+          "body": "MC",
+          "swiss_deg": 51.7535609,
+          "independent_reference_deg": 51.7539889,
+          "angular_difference_deg": 0.000428,
+          "qa_tolerance_deg": 0.06,
+          "pass": true,
+          "independent_model": "mean sidereal time + geometric horizon/meridian"
+        }
+      ],
+      "count": 11,
+      "passed": 11,
+      "status": "PASS_MODEL_LEVEL",
+      "not_covered": [
+        "Pluto",
+        "Placidus/other house cusps",
+        "JPL Horizons/DE-series high-accuracy comparison"
+      ]
+    },
+    {
+      "utc": "2026-11-20T00:00:00+00:00",
+      "latitude_deg": -33.8688,
+      "longitude_deg": 151.2093,
+      "effective_swiss_engine": [
+        "moseph"
+      ],
+      "checks": [
+        {
+          "body": "Sun",
+          "swiss_deg": 237.6706498,
+          "independent_reference_deg": 237.6704115,
+          "angular_difference_deg": 0.0002383,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Moon",
+          "swiss_deg": 356.7767357,
+          "independent_reference_deg": 356.8138482,
+          "angular_difference_deg": 0.0371125,
+          "qa_tolerance_deg": 0.35,
+          "pass": true,
+          "independent_model": "truncated lunar harmonics"
+        },
+        {
+          "body": "Mercury",
+          "swiss_deg": 218.2337226,
+          "independent_reference_deg": 218.2330604,
+          "angular_difference_deg": 0.0006622,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Venus",
+          "swiss_deg": 203.5588061,
+          "independent_reference_deg": 203.5506146,
+          "angular_difference_deg": 0.0081914,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Mars",
+          "swiss_deg": 147.5213431,
+          "independent_reference_deg": 147.5204487,
+          "angular_difference_deg": 0.0008944,
+          "qa_tolerance_deg": 0.25,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Jupiter",
+          "swiss_deg": 146.1771653,
+          "independent_reference_deg": 146.2060169,
+          "angular_difference_deg": 0.0288516,
+          "qa_tolerance_deg": 0.45,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Saturn",
+          "swiss_deg": 8.324222,
+          "independent_reference_deg": 8.3997117,
+          "angular_difference_deg": 0.0754897,
+          "qa_tolerance_deg": 0.5,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Uranus",
+          "swiss_deg": 63.9244753,
+          "independent_reference_deg": 63.9179789,
+          "angular_difference_deg": 0.0064963,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Neptune",
+          "swiss_deg": 1.7608002,
+          "independent_reference_deg": 1.7476029,
+          "angular_difference_deg": 0.0131973,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "ASC",
+          "swiss_deg": 310.1568734,
+          "independent_reference_deg": 310.1545813,
+          "angular_difference_deg": 0.0022921,
+          "qa_tolerance_deg": 0.1,
+          "pass": true,
+          "independent_model": "mean sidereal time + geometric horizon/meridian"
+        },
+        {
+          "body": "MC",
+          "swiss_deg": 212.426937,
+          "independent_reference_deg": 212.4243646,
+          "angular_difference_deg": 0.0025724,
+          "qa_tolerance_deg": 0.06,
+          "pass": true,
+          "independent_model": "mean sidereal time + geometric horizon/meridian"
+        }
+      ],
+      "count": 11,
+      "passed": 11,
+      "status": "PASS_MODEL_LEVEL",
+      "not_covered": [
+        "Pluto",
+        "Placidus/other house cusps",
+        "JPL Horizons/DE-series high-accuracy comparison"
+      ]
+    },
+    {
+      "utc": "2035-04-03T12:00:00+00:00",
+      "latitude_deg": 48.8566,
+      "longitude_deg": 2.3522,
+      "effective_swiss_engine": [
+        "moseph"
+      ],
+      "checks": [
+        {
+          "body": "Sun",
+          "swiss_deg": 13.5664013,
+          "independent_reference_deg": 13.5730002,
+          "angular_difference_deg": 0.0065989,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Moon",
+          "swiss_deg": 311.9778071,
+          "independent_reference_deg": 311.912238,
+          "angular_difference_deg": 0.0655691,
+          "qa_tolerance_deg": 0.35,
+          "pass": true,
+          "independent_model": "truncated lunar harmonics"
+        },
+        {
+          "body": "Mercury",
+          "swiss_deg": 11.1713675,
+          "independent_reference_deg": 11.1874838,
+          "angular_difference_deg": 0.0161163,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Venus",
+          "swiss_deg": 340.420792,
+          "independent_reference_deg": 340.4304158,
+          "angular_difference_deg": 0.0096238,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Mars",
+          "swiss_deg": 293.9383506,
+          "independent_reference_deg": 293.9455065,
+          "angular_difference_deg": 0.0071558,
+          "qa_tolerance_deg": 0.25,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Jupiter",
+          "swiss_deg": 23.6840827,
+          "independent_reference_deg": 23.6572514,
+          "angular_difference_deg": 0.0268313,
+          "qa_tolerance_deg": 0.45,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Saturn",
+          "swiss_deg": 118.4389971,
+          "independent_reference_deg": 118.4098877,
+          "angular_difference_deg": 0.0291094,
+          "qa_tolerance_deg": 0.5,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Uranus",
+          "swiss_deg": 96.6579045,
+          "independent_reference_deg": 96.6765607,
+          "angular_difference_deg": 0.0186562,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Neptune",
+          "swiss_deg": 21.7148264,
+          "independent_reference_deg": 21.7154604,
+          "angular_difference_deg": 0.0006339,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "ASC",
+          "swiss_deg": 124.9146295,
+          "independent_reference_deg": 124.9172083,
+          "angular_difference_deg": 0.0025788,
+          "qa_tolerance_deg": 0.1,
+          "pass": true,
+          "independent_model": "mean sidereal time + geometric horizon/meridian"
+        },
+        {
+          "body": "MC",
+          "swiss_deg": 15.2098536,
+          "independent_reference_deg": 15.2116237,
+          "angular_difference_deg": 0.0017701,
+          "qa_tolerance_deg": 0.06,
+          "pass": true,
+          "independent_model": "mean sidereal time + geometric horizon/meridian"
+        }
+      ],
+      "count": 11,
+      "passed": 11,
+      "status": "PASS_MODEL_LEVEL",
+      "not_covered": [
+        "Pluto",
+        "Placidus/other house cusps",
+        "JPL Horizons/DE-series high-accuracy comparison"
+      ]
+    },
+    {
+      "utc": "2045-11-08T03:00:00+00:00",
+      "latitude_deg": 13.7563,
+      "longitude_deg": 100.5018,
+      "effective_swiss_engine": [
+        "moseph"
+      ],
+      "checks": [
+        {
+          "body": "Sun",
+          "swiss_deg": 226.1085068,
+          "independent_reference_deg": 226.1124894,
+          "angular_difference_deg": 0.0039825,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Moon",
+          "swiss_deg": 215.9353412,
+          "independent_reference_deg": 215.8435265,
+          "angular_difference_deg": 0.0918147,
+          "qa_tolerance_deg": 0.35,
+          "pass": true,
+          "independent_model": "truncated lunar harmonics"
+        },
+        {
+          "body": "Mercury",
+          "swiss_deg": 242.1921783,
+          "independent_reference_deg": 242.1922281,
+          "angular_difference_deg": 4.98e-05,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Venus",
+          "swiss_deg": 271.7558014,
+          "independent_reference_deg": 271.7606563,
+          "angular_difference_deg": 0.0048549,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Mars",
+          "swiss_deg": 167.2414596,
+          "independent_reference_deg": 167.2436569,
+          "angular_difference_deg": 0.0021973,
+          "qa_tolerance_deg": 0.25,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Jupiter",
+          "swiss_deg": 332.6376991,
+          "independent_reference_deg": 332.7311969,
+          "angular_difference_deg": 0.0934977,
+          "qa_tolerance_deg": 0.45,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Saturn",
+          "swiss_deg": 251.0397741,
+          "independent_reference_deg": 250.9411822,
+          "angular_difference_deg": 0.0985919,
+          "qa_tolerance_deg": 0.5,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Uranus",
+          "swiss_deg": 151.2649239,
+          "independent_reference_deg": 151.2428398,
+          "angular_difference_deg": 0.022084,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "Neptune",
+          "swiss_deg": 45.6807786,
+          "independent_reference_deg": 45.6809637,
+          "angular_difference_deg": 0.0001851,
+          "qa_tolerance_deg": 0.2,
+          "pass": true,
+          "independent_model": "NASA/JPL SSD approximate Keplerian Table 1"
+        },
+        {
+          "body": "ASC",
+          "swiss_deg": 276.5872616,
+          "independent_reference_deg": 276.5856117,
+          "angular_difference_deg": 0.0016499,
+          "qa_tolerance_deg": 0.1,
+          "pass": true,
+          "independent_model": "mean sidereal time + geometric horizon/meridian"
+        },
+        {
+          "body": "MC",
+          "swiss_deg": 194.3584861,
+          "independent_reference_deg": 194.3556793,
+          "angular_difference_deg": 0.0028068,
+          "qa_tolerance_deg": 0.06,
+          "pass": true,
+          "independent_model": "mean sidereal time + geometric horizon/meridian"
+        }
+      ],
+      "count": 11,
+      "passed": 11,
+      "status": "PASS_MODEL_LEVEL",
+      "not_covered": [
+        "Pluto",
+        "Placidus/other house cusps",
+        "JPL Horizons/DE-series high-accuracy comparison"
+      ]
+    }
+  ],
+  "independent_reference_urls": [
+    "https://ssd.jpl.nasa.gov/planets/approx_pos.html",
+    "https://github.com/architest/pymeeus/blob/master/pymeeus/Moon.py"
+  ],
+  "limitations": [
+    "This is not an independent JPL Horizons/DE440 comparison.",
+    "Moon series is truncated; tropical precession and apparent corrections are approximate.",
+    "Pluto has no validated independent model in this release.",
+    "Full Placidus cusp geometry is NOT covered.",
+    "Even accurate astronomy would not validate predictive astrology."
+  ]
+}

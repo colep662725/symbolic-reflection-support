@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.horizons-audit/
+horizons-audit-output/
+horizons-audit-output/

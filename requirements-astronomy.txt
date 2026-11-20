@@ -1,0 +1,8 @@
+# Optional astronomical calculations. Base Tarot/I Ching needs no packages.
+# Both bindings expose `import swisseph` but differ in the Python return ABI.
+# The scripts/swiss_compat.py adapter supports both; install ONE distribution.
+# On CPython 3.13 Windows the old pyswisseph package lacks a binary wheel;
+# pysweph 2.10.3.6 has a win_amd64 wheel and avoids MSVC compilation.
+pyswisseph==2.10.3.2; python_version < '3.13'
+pysweph==2.10.3.6; python_version >= '3.13'
+tzdata>=2025.2

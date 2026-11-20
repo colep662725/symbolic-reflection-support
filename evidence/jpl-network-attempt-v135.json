@@ -1,0 +1,12 @@
+{
+  "recorded_utc": "2026-11-20T06:13:10+00:00",
+  "host": "ssd.jpl.nasa.gov",
+  "method": "socket.getaddrinfo(host,443) on model container",
+  "status": "DNS_FAILURE",
+  "error": {
+    "type": "gaierror",
+    "description": "[Errno -3] Temporary failure in name resolution"
+  },
+  "conclusion": "No official Horizons response captured from this container",
+  "not_a_nasa_payload": true
+}

@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Tropical natal chart astronomical calculations",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.3.0"
+    },
+    "astronomy": {
+      "type": "object",
+      "required": [
+        "library",
+        "library_version",
+        "requested_ephemeris",
+        "effective_ephemeris",
+        "license"
+      ],
+      "properties": {
+        "requested_ephemeris": {
+          "enum": [
+            "moseph",
+            "swieph"
+          ]
+        },
+        "effective_ephemeris": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "predictions_supported": {
+      "const": false
+    },
+    "kind": {
+      "const": "tropical_natal_chart_calculation"
+    },
+    "local_datetime": {
+      "type": "string"
+    },
+    "utc_datetime": {
+      "type": "string"
+    },
+    "chart": {
+      "type": "object",
+      "required": [
+        "julian_day_ut",
+        "houses",
+        "planets",
+        "effective_engines"
+      ],
+      "properties": {
+        "houses": {
+          "type": "object",
+          "required": [
+            "system",
+            "ascendant_deg",
+            "midheaven_deg",
+            "cusps_deg"
+          ]
+        },
+        "planets": {
+          "type": "array",
+          "minItems": 10,
+          "maxItems": 10,
+          "items": {
+            "type": "object",
+            "required": [
+              "body",
+              "longitude_deg",
+              "latitude_deg",
+              "retrograde",
+              "zodiac",
+              "house",
+              "effective_ephemeris"
+            ],
+            "properties": {
+              "longitude_deg": {
+                "type": "number",
+                "minimum": 0,
+                "exclusiveMaximum": 360
+              },
+              "house": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 12
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "kind",
+    "astronomy",
+    "chart",
+    "local_datetime",
+    "utc_datetime",
+    "predictions_supported"
+  ]
+}

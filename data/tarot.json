@@ -1,0 +1,2900 @@
+{
+  "version": "1.2.0",
+  "type": "original_reflection_cues",
+  "languages": [
+    "en",
+    "zh",
+    "ja",
+    "fr",
+    "es",
+    "pt"
+  ],
+  "cards": [
+    {
+      "id": "rws-00",
+      "names": {
+        "en": "The Fool",
+        "zh": "愚者",
+        "ja": "愚者",
+        "fr": "Le Mat",
+        "es": "El Loco",
+        "pt": "O Louco"
+      },
+      "cues": {
+        "en": {
+          "upright": "open a new path",
+          "reversed": "pause before a leap"
+        },
+        "zh": {
+          "upright": "开启新路",
+          "reversed": "跳跃前先看清"
+        },
+        "ja": {
+          "upright": "新しい道を開く",
+          "reversed": "飛び込む前に確かめる"
+        },
+        "fr": {
+          "upright": "ouvrir une nouvelle voie",
+          "reversed": "réfléchir avant de sauter"
+        },
+        "es": {
+          "upright": "abrir un nuevo camino",
+          "reversed": "pensar antes de saltar"
+        },
+        "pt": {
+          "upright": "abrir um novo caminho",
+          "reversed": "avaliar antes de saltar"
+        }
+      }
+    },
+    {
+      "id": "rws-01",
+      "names": {
+        "en": "The Magician",
+        "zh": "魔术师",
+        "ja": "魔術師",
+        "fr": "Le Bateleur",
+        "es": "El Mago",
+        "pt": "O Mago"
+      },
+      "cues": {
+        "en": {
+          "upright": "act with focused skill",
+          "reversed": "notice manipulation or scattered effort"
+        },
+        "zh": {
+          "upright": "专注地运用能力",
+          "reversed": "警惕操纵或分心"
+        },
+        "ja": {
+          "upright": "力を集中して使う",
+          "reversed": "操作や散漫さに気づく"
+        },
+        "fr": {
+          "upright": "agir avec habileté",
+          "reversed": "repérer la manipulation ou la dispersion"
+        },
+        "es": {
+          "upright": "actuar con habilidad",
+          "reversed": "detectar manipulación o dispersión"
+        },
+        "pt": {
+          "upright": "agir com habilidade",
+          "reversed": "perceber manipulação ou dispersão"
+        }
+      }
+    },
+    {
+      "id": "rws-02",
+      "names": {
+        "en": "The High Priestess",
+        "zh": "女祭司",
+        "ja": "女教皇",
+        "fr": "La Papesse",
+        "es": "La Sacerdotisa",
+        "pt": "A Sacerdotisa"
+      },
+      "cues": {
+        "en": {
+          "upright": "listen to subtle intuition",
+          "reversed": "question concealed assumptions"
+        },
+        "zh": {
+          "upright": "倾听细微直觉",
+          "reversed": "检视隐含假设"
+        },
+        "ja": {
+          "upright": "静かな直感に耳を傾ける",
+          "reversed": "隠れた前提を疑う"
+        },
+        "fr": {
+          "upright": "écouter son intuition",
+          "reversed": "examiner les suppositions cachées"
+        },
+        "es": {
+          "upright": "escuchar la intuición",
+          "reversed": "revisar supuestos ocultos"
+        },
+        "pt": {
+          "upright": "ouvir a intuição",
+          "reversed": "examinar pressupostos ocultos"
+        }
+      }
+    },
+    {
+      "id": "rws-03",
+      "names": {
+        "en": "The Empress",
+        "zh": "皇后",
+        "ja": "女帝",
+        "fr": "L’Impératrice",
+        "es": "La Emperatriz",
+        "pt": "A Imperatriz"
+      },
+      "cues": {
+        "en": {
+          "upright": "nurture growth and care",
+          "reversed": "balance giving and receiving"
+        },
+        "zh": {
+          "upright": "滋养成长与关怀",
+          "reversed": "平衡付出与接受"
+        },
+        "ja": {
+          "upright": "育みと成長",
+          "reversed": "与えることと受け取ることの均衡"
+        },
+        "fr": {
+          "upright": "nourrir la croissance",
+          "reversed": "équilibrer don et accueil"
+        },
+        "es": {
+          "upright": "nutrir el crecimiento",
+          "reversed": "equilibrar dar y recibir"
+        },
+        "pt": {
+          "upright": "nutrir o crescimento",
+          "reversed": "equilibrar dar e receber"
+        }
+      }
+    },
+    {
+      "id": "rws-04",
+      "names": {
+        "en": "The Emperor",
+        "zh": "皇帝",
+        "ja": "皇帝",
+        "fr": "L’Empereur",
+        "es": "El Emperador",
+        "pt": "O Imperador"
+      },
+      "cues": {
+        "en": {
+          "upright": "build fair structure",
+          "reversed": "avoid rigid control"
+        },
+        "zh": {
+          "upright": "建立公正结构",
+          "reversed": "避免僵硬控制"
+        },
+        "ja": {
+          "upright": "公正な仕組みを築く",
+          "reversed": "硬直した支配を避ける"
+        },
+        "fr": {
+          "upright": "bâtir un cadre juste",
+          "reversed": "éviter le contrôle rigide"
+        },
+        "es": {
+          "upright": "crear una estructura justa",
+          "reversed": "evitar el control rígido"
+        },
+        "pt": {
+          "upright": "criar uma estrutura justa",
+          "reversed": "evitar controle rígido"
+        }
+      }
+    },
+    {
+      "id": "rws-05",
+      "names": {
+        "en": "The Hierophant",
+        "zh": "教皇",
+        "ja": "法王",
+        "fr": "Le Pape",
+        "es": "El Hierofante",
+        "pt": "O Hierofante"
+      },
+      "cues": {
+        "en": {
+          "upright": "seek meaningful guidance",
+          "reversed": "review unexamined rules"
+        },
+        "zh": {
+          "upright": "寻找有意义的指导",
+          "reversed": "重新审视惯例"
+        },
+        "ja": {
+          "upright": "意義ある導きを探す",
+          "reversed": "慣習を問い直す"
+        },
+        "fr": {
+          "upright": "chercher un guide éclairé",
+          "reversed": "réexaminer les conventions"
+        },
+        "es": {
+          "upright": "buscar orientación valiosa",
+          "reversed": "revisar convenciones"
+        },
+        "pt": {
+          "upright": "buscar orientação valiosa",
+          "reversed": "reavaliar convenções"
+        }
+      }
+    },
+    {
+      "id": "rws-06",
+      "names": {
+        "en": "The Lovers",
+        "zh": "恋人",
+        "ja": "恋人",
+        "fr": "L’Amoureux",
+        "es": "Los Enamorados",
+        "pt": "Os Enamorados"
+      },
+      "cues": {
+        "en": {
+          "upright": "choose through shared values",
+          "reversed": "notice a misaligned choice"
+        },
+        "zh": {
+          "upright": "依照共同价值作选择",
+          "reversed": "留意价值错位"
+        },
+        "ja": {
+          "upright": "共有する価値で選ぶ",
+          "reversed": "価値のずれに気づく"
+        },
+        "fr": {
+          "upright": "choisir selon ses valeurs",
+          "reversed": "voir un choix désaccordé"
+        },
+        "es": {
+          "upright": "elegir según valores",
+          "reversed": "advertir una elección incoherente"
+        },
+        "pt": {
+          "upright": "escolher segundo valores",
+          "reversed": "notar escolha desalinhada"
+        }
+      }
+    },
+    {
+      "id": "rws-07",
+      "names": {
+        "en": "The Chariot",
+        "zh": "战车",
+        "ja": "戦車",
+        "fr": "Le Chariot",
+        "es": "El Carro",
+        "pt": "O Carro"
+      },
+      "cues": {
+        "en": {
+          "upright": "steer competing forces",
+          "reversed": "release forced control"
+        },
+        "zh": {
+          "upright": "协调不同力量",
+          "reversed": "放松过度控制"
+        },
+        "ja": {
+          "upright": "相反する力を導く",
+          "reversed": "無理な支配を緩める"
+        },
+        "fr": {
+          "upright": "orienter des forces opposées",
+          "reversed": "lâcher un contrôle excessif"
+        },
+        "es": {
+          "upright": "dirigir fuerzas opuestas",
+          "reversed": "soltar el control forzado"
+        },
+        "pt": {
+          "upright": "conduzir forças opostas",
+          "reversed": "soltar o controle excessivo"
+        }
+      }
+    },
+    {
+      "id": "rws-08",
+      "names": {
+        "en": "Strength",
+        "zh": "力量",
+        "ja": "力",
+        "fr": "La Force",
+        "es": "La Fuerza",
+        "pt": "A Força"
+      },
+      "cues": {
+        "en": {
+          "upright": "respond with gentle courage",
+          "reversed": "make room for vulnerability"
+        },
+        "zh": {
+          "upright": "以温柔的勇气回应",
+          "reversed": "容纳自己的脆弱"
+        },
+        "ja": {
+          "upright": "優しい勇気で向き合う",
+          "reversed": "弱さも受け入れる"
+        },
+        "fr": {
+          "upright": "oser avec douceur",
+          "reversed": "accueillir sa vulnérabilité"
+        },
+        "es": {
+          "upright": "actuar con valentía serena",
+          "reversed": "aceptar vulnerabilidad"
+        },
+        "pt": {
+          "upright": "agir com coragem gentil",
+          "reversed": "acolher vulnerabilidade"
+        }
+      }
+    },
+    {
+      "id": "rws-09",
+      "names": {
+        "en": "The Hermit",
+        "zh": "隐者",
+        "ja": "隠者",
+        "fr": "L’Ermite",
+        "es": "El Ermitaño",
+        "pt": "O Eremita"
+      },
+      "cues": {
+        "en": {
+          "upright": "find insight in solitude",
+          "reversed": "avoid endless withdrawal"
+        },
+        "zh": {
+          "upright": "在独处中获得洞见",
+          "reversed": "避免持续退缩"
+        },
+        "ja": {
+          "upright": "静けさの中で気づく",
+          "reversed": "閉じこもりすぎない"
+        },
+        "fr": {
+          "upright": "trouver une clarté intérieure",
+          "reversed": "éviter le repli prolongé"
+        },
+        "es": {
+          "upright": "hallar claridad en soledad",
+          "reversed": "evitar aislarse sin fin"
+        },
+        "pt": {
+          "upright": "encontrar clareza na solidão",
+          "reversed": "evitar isolamento prolongado"
+        }
+      }
+    },
+    {
+      "id": "rws-10",
+      "names": {
+        "en": "Wheel of Fortune",
+        "zh": "命运之轮",
+        "ja": "運命の輪",
+        "fr": "La Roue de Fortune",
+        "es": "La Rueda de la Fortuna",
+        "pt": "A Roda da Fortuna"
+      },
+      "cues": {
+        "en": {
+          "upright": "adapt to changing cycles",
+          "reversed": "do not surrender all agency"
+        },
+        "zh": {
+          "upright": "顺应变化周期",
+          "reversed": "不要放弃自主性"
+        },
+        "ja": {
+          "upright": "変化の周期に適応する",
+          "reversed": "主体性を手放さない"
+        },
+        "fr": {
+          "upright": "s'adapter aux cycles",
+          "reversed": "garder sa capacité d'agir"
+        },
+        "es": {
+          "upright": "adaptarse a los ciclos",
+          "reversed": "conservar la iniciativa"
+        },
+        "pt": {
+          "upright": "adaptar-se aos ciclos",
+          "reversed": "preservar a iniciativa"
+        }
+      }
+    },
+    {
+      "id": "rws-11",
+      "names": {
+        "en": "Justice",
+        "zh": "正义",
+        "ja": "正義",
+        "fr": "La Justice",
+        "es": "La Justicia",
+        "pt": "A Justiça"
+      },
+      "cues": {
+        "en": {
+          "upright": "weigh facts and consequences",
+          "reversed": "notice unfair self-judgment"
+        },
+        "zh": {
+          "upright": "权衡事实与后果",
+          "reversed": "察觉不公的自我苛责"
+        },
+        "ja": {
+          "upright": "事実と結果を秤にかける",
+          "reversed": "不公平な自己批判に気づく"
+        },
+        "fr": {
+          "upright": "peser faits et conséquences",
+          "reversed": "revoir un jugement trop dur"
+        },
+        "es": {
+          "upright": "sopesar hechos y efectos",
+          "reversed": "revisar un juicio severo"
+        },
+        "pt": {
+          "upright": "ponderar fatos e efeitos",
+          "reversed": "rever julgamento severo"
+        }
+      }
+    },
+    {
+      "id": "rws-12",
+      "names": {
+        "en": "The Hanged Man",
+        "zh": "倒吊人",
+        "ja": "吊るされた男",
+        "fr": "Le Pendu",
+        "es": "El Colgado",
+        "pt": "O Enforcado"
+      },
+      "cues": {
+        "en": {
+          "upright": "see from another angle",
+          "reversed": "notice unhelpful delay"
+        },
+        "zh": {
+          "upright": "换个角度观察",
+          "reversed": "留意无益的拖延"
+        },
+        "ja": {
+          "upright": "別の角度から見る",
+          "reversed": "無益な先延ばしを見直す"
+        },
+        "fr": {
+          "upright": "changer de perspective",
+          "reversed": "revoir une attente stérile"
+        },
+        "es": {
+          "upright": "ver desde otro ángulo",
+          "reversed": "revisar una espera inútil"
+        },
+        "pt": {
+          "upright": "ver de outro ângulo",
+          "reversed": "rever uma espera improdutiva"
+        }
+      }
+    },
+    {
+      "id": "rws-13",
+      "names": {
+        "en": "Death",
+        "zh": "死神",
+        "ja": "死神",
+        "fr": "La Mort",
+        "es": "La Muerte",
+        "pt": "A Morte"
+      },
+      "cues": {
+        "en": {
+          "upright": "allow an ending to transform",
+          "reversed": "avoid clinging to what is over"
+        },
+        "zh": {
+          "upright": "允许结束带来转变",
+          "reversed": "避免执着已结束之事"
+        },
+        "ja": {
+          "upright": "終わりから変化を受け入れる",
+          "reversed": "終わったものに固執しない"
+        },
+        "fr": {
+          "upright": "accepter une transformation",
+          "reversed": "cesser de retenir le passé"
+        },
+        "es": {
+          "upright": "aceptar una transformación",
+          "reversed": "soltar lo que terminó"
+        },
+        "pt": {
+          "upright": "aceitar uma transformação",
+          "reversed": "soltar o que acabou"
+        }
+      }
+    },
+    {
+      "id": "rws-14",
+      "names": {
+        "en": "Temperance",
+        "zh": "节制",
+        "ja": "節制",
+        "fr": "Tempérance",
+        "es": "La Templanza",
+        "pt": "A Temperança"
+      },
+      "cues": {
+        "en": {
+          "upright": "blend patience with balance",
+          "reversed": "notice extremes and excess"
+        },
+        "zh": {
+          "upright": "用耐心取得平衡",
+          "reversed": "注意极端与过度"
+        },
+        "ja": {
+          "upright": "忍耐と調和を混ぜる",
+          "reversed": "極端さに気づく"
+        },
+        "fr": {
+          "upright": "cultiver la juste mesure",
+          "reversed": "reconnaître les excès"
+        },
+        "es": {
+          "upright": "cultivar el equilibrio",
+          "reversed": "reconocer los excesos"
+        },
+        "pt": {
+          "upright": "cultivar equilíbrio",
+          "reversed": "reconhecer excessos"
+        }
+      }
+    },
+    {
+      "id": "rws-15",
+      "names": {
+        "en": "The Devil",
+        "zh": "恶魔",
+        "ja": "悪魔",
+        "fr": "Le Diable",
+        "es": "El Diablo",
+        "pt": "O Diabo"
+      },
+      "cues": {
+        "en": {
+          "upright": "name the bonds that constrain",
+          "reversed": "reclaim choice without shame"
+        },
+        "zh": {
+          "upright": "辨认束缚你的关系",
+          "reversed": "不带羞耻地重新选择"
+        },
+        "ja": {
+          "upright": "縛るものを言葉にする",
+          "reversed": "恥なく選び直す"
+        },
+        "fr": {
+          "upright": "nommer ses dépendances",
+          "reversed": "retrouver le choix sans honte"
+        },
+        "es": {
+          "upright": "nombrar ataduras",
+          "reversed": "recuperar la elección sin culpa"
+        },
+        "pt": {
+          "upright": "nomear amarras",
+          "reversed": "recuperar a escolha sem culpa"
+        }
+      }
+    },
+    {
+      "id": "rws-16",
+      "names": {
+        "en": "The Tower",
+        "zh": "高塔",
+        "ja": "塔",
+        "fr": "La Maison Dieu",
+        "es": "La Torre",
+        "pt": "A Torre"
+      },
+      "cues": {
+        "en": {
+          "upright": "face a sudden disruption",
+          "reversed": "rebuild after avoidable conflict"
+        },
+        "zh": {
+          "upright": "面对突如其来的变化",
+          "reversed": "在冲突后重新建设"
+        },
+        "ja": {
+          "upright": "急な変化に向き合う",
+          "reversed": "衝突後に立て直す"
+        },
+        "fr": {
+          "upright": "faire face à une rupture",
+          "reversed": "reconstruire après la crise"
+        },
+        "es": {
+          "upright": "afrontar una ruptura",
+          "reversed": "reconstruir tras una crisis"
+        },
+        "pt": {
+          "upright": "encarar uma ruptura",
+          "reversed": "reconstruir após a crise"
+        }
+      }
+    },
+    {
+      "id": "rws-17",
+      "names": {
+        "en": "The Star",
+        "zh": "星星",
+        "ja": "星",
+        "fr": "L’Étoile",
+        "es": "La Estrella",
+        "pt": "A Estrela"
+      },
+      "cues": {
+        "en": {
+          "upright": "renew realistic hope",
+          "reversed": "seek support in discouragement"
+        },
+        "zh": {
+          "upright": "重建有根据的希望",
+          "reversed": "在灰心时寻求支持"
+        },
+        "ja": {
+          "upright": "現実的な希望を育てる",
+          "reversed": "落胆したら助けを求める"
+        },
+        "fr": {
+          "upright": "renouer avec un espoir lucide",
+          "reversed": "chercher du soutien au découragement"
+        },
+        "es": {
+          "upright": "renovar una esperanza realista",
+          "reversed": "buscar apoyo ante el desaliento"
+        },
+        "pt": {
+          "upright": "renovar esperança realista",
+          "reversed": "buscar apoio no desânimo"
+        }
+      }
+    },
+    {
+      "id": "rws-18",
+      "names": {
+        "en": "The Moon",
+        "zh": "月亮",
+        "ja": "月",
+        "fr": "La Lune",
+        "es": "La Luna",
+        "pt": "A Lua"
+      },
+      "cues": {
+        "en": {
+          "upright": "accept uncertainty and emotion",
+          "reversed": "check fears against facts"
+        },
+        "zh": {
+          "upright": "容纳不确定和情绪",
+          "reversed": "用事实核查担忧"
+        },
+        "ja": {
+          "upright": "不確かさと感情を受け入れる",
+          "reversed": "不安を事実と照らす"
+        },
+        "fr": {
+          "upright": "accueillir l'incertitude",
+          "reversed": "confronter ses peurs aux faits"
+        },
+        "es": {
+          "upright": "aceptar la incertidumbre",
+          "reversed": "contrastar temores con hechos"
+        },
+        "pt": {
+          "upright": "acolher a incerteza",
+          "reversed": "confrontar medos com fatos"
+        }
+      }
+    },
+    {
+      "id": "rws-19",
+      "names": {
+        "en": "The Sun",
+        "zh": "太阳",
+        "ja": "太陽",
+        "fr": "Le Soleil",
+        "es": "El Sol",
+        "pt": "O Sol"
+      },
+      "cues": {
+        "en": {
+          "upright": "celebrate ordinary clarity",
+          "reversed": "allow joy without performance"
+        },
+        "zh": {
+          "upright": "珍惜日常的明朗",
+          "reversed": "允许不带目的的快乐"
+        },
+        "ja": {
+          "upright": "日常の明るさを祝う",
+          "reversed": "成果なしの喜びを許す"
+        },
+        "fr": {
+          "upright": "célébrer la clarté",
+          "reversed": "s'autoriser une joie simple"
+        },
+        "es": {
+          "upright": "celebrar la claridad",
+          "reversed": "permitir una alegría sencilla"
+        },
+        "pt": {
+          "upright": "celebrar a clareza",
+          "reversed": "permitir alegria simples"
+        }
+      }
+    },
+    {
+      "id": "rws-20",
+      "names": {
+        "en": "Judgement",
+        "zh": "审判",
+        "ja": "審判",
+        "fr": "Le Jugement",
+        "es": "El Juicio",
+        "pt": "O Julgamento"
+      },
+      "cues": {
+        "en": {
+          "upright": "review your next calling",
+          "reversed": "release harsh self-judgment"
+        },
+        "zh": {
+          "upright": "重新审视下一步召唤",
+          "reversed": "放下苛刻自责"
+        },
+        "ja": {
+          "upright": "次の役割を見直す",
+          "reversed": "厳しい自己批判を緩める"
+        },
+        "fr": {
+          "upright": "réévaluer son appel",
+          "reversed": "adoucir son autojugement"
+        },
+        "es": {
+          "upright": "revisar la propia vocación",
+          "reversed": "aflojar la autocrítica"
+        },
+        "pt": {
+          "upright": "rever sua vocação",
+          "reversed": "suavizar a autocrítica"
+        }
+      }
+    },
+    {
+      "id": "rws-21",
+      "names": {
+        "en": "The World",
+        "zh": "世界",
+        "ja": "世界",
+        "fr": "Le Monde",
+        "es": "El Mundo",
+        "pt": "O Mundo"
+      },
+      "cues": {
+        "en": {
+          "upright": "integrate what is complete",
+          "reversed": "notice the next boundary"
+        },
+        "zh": {
+          "upright": "整合已经完成之事",
+          "reversed": "留意新的边界"
+        },
+        "ja": {
+          "upright": "達成したことを統合する",
+          "reversed": "次の境界を意識する"
+        },
+        "fr": {
+          "upright": "intégrer l'accompli",
+          "reversed": "voir la prochaine limite"
+        },
+        "es": {
+          "upright": "integrar lo logrado",
+          "reversed": "ver el próximo límite"
+        },
+        "pt": {
+          "upright": "integrar o realizado",
+          "reversed": "perceber o próximo limite"
+        }
+      }
+    },
+    {
+      "id": "rws-22",
+      "names": {
+        "en": "Ace of Wands",
+        "zh": "权杖一",
+        "ja": "ワンドのエース",
+        "fr": "As de Bâtons",
+        "es": "As de Bastos",
+        "pt": "Ás de Paus"
+      },
+      "cues": {
+        "en": {
+          "upright": "start a creative spark",
+          "reversed": "clarify scattered impulses"
+        },
+        "zh": {
+          "upright": "点燃创造的火花",
+          "reversed": "理清分散的冲动"
+        },
+        "ja": {
+          "upright": "創造の火を灯す",
+          "reversed": "衝動を整理する"
+        },
+        "fr": {
+          "upright": "allumer une étincelle créative",
+          "reversed": "canaliser l'impulsion"
+        },
+        "es": {
+          "upright": "encender una chispa creativa",
+          "reversed": "orientar impulsos dispersos"
+        },
+        "pt": {
+          "upright": "acender uma centelha criativa",
+          "reversed": "orientar impulsos dispersos"
+        }
+      }
+    },
+    {
+      "id": "rws-23",
+      "names": {
+        "en": "Two of Wands",
+        "zh": "权杖二",
+        "ja": "ワンドの2",
+        "fr": "Deux de Bâtons",
+        "es": "Dos de Bastos",
+        "pt": "Dois de Paus"
+      },
+      "cues": {
+        "en": {
+          "upright": "plan beyond the familiar",
+          "reversed": "face hesitation about expansion"
+        },
+        "zh": {
+          "upright": "规划熟悉领域之外",
+          "reversed": "正视拓展的犹豫"
+        },
+        "ja": {
+          "upright": "慣れた場所の外を計画する",
+          "reversed": "拡大への迷いを見る"
+        },
+        "fr": {
+          "upright": "envisager l'horizon",
+          "reversed": "affronter l'hésitation"
+        },
+        "es": {
+          "upright": "planear más allá",
+          "reversed": "afrontar la indecisión"
+        },
+        "pt": {
+          "upright": "planejar além do conhecido",
+          "reversed": "enfrentar a hesitação"
+        }
+      }
+    },
+    {
+      "id": "rws-24",
+      "names": {
+        "en": "Three of Wands",
+        "zh": "权杖三",
+        "ja": "ワンドの3",
+        "fr": "Trois de Bâtons",
+        "es": "Tres de Bastos",
+        "pt": "Três de Paus"
+      },
+      "cues": {
+        "en": {
+          "upright": "wait for progress to unfold",
+          "reversed": "adjust plans to delays"
+        },
+        "zh": {
+          "upright": "耐心等待进展",
+          "reversed": "应对计划延迟"
+        },
+        "ja": {
+          "upright": "進展を見守る",
+          "reversed": "遅れに合わせて調整する"
+        },
+        "fr": {
+          "upright": "attendre les résultats",
+          "reversed": "adapter ses projets aux retards"
+        },
+        "es": {
+          "upright": "esperar avances",
+          "reversed": "adaptarse a retrasos"
+        },
+        "pt": {
+          "upright": "aguardar avanços",
+          "reversed": "adaptar-se aos atrasos"
+        }
+      }
+    },
+    {
+      "id": "rws-25",
+      "names": {
+        "en": "Four of Wands",
+        "zh": "权杖四",
+        "ja": "ワンドの4",
+        "fr": "Quatre de Bâtons",
+        "es": "Cuatro de Bastos",
+        "pt": "Quatro de Paus"
+      },
+      "cues": {
+        "en": {
+          "upright": "celebrate shared milestones",
+          "reversed": "repair a fragile welcome"
+        },
+        "zh": {
+          "upright": "庆祝共同里程碑",
+          "reversed": "修复不稳的归属感"
+        },
+        "ja": {
+          "upright": "節目を共に祝う",
+          "reversed": "居場所を整え直す"
+        },
+        "fr": {
+          "upright": "célébrer une étape commune",
+          "reversed": "réparer un accueil fragile"
+        },
+        "es": {
+          "upright": "celebrar logros compartidos",
+          "reversed": "reparar la acogida frágil"
+        },
+        "pt": {
+          "upright": "celebrar marcos partilhados",
+          "reversed": "reparar acolhida frágil"
+        }
+      }
+    },
+    {
+      "id": "rws-26",
+      "names": {
+        "en": "Five of Wands",
+        "zh": "权杖五",
+        "ja": "ワンドの5",
+        "fr": "Cinq de Bâtons",
+        "es": "Cinco de Bastos",
+        "pt": "Cinco de Paus"
+      },
+      "cues": {
+        "en": {
+          "upright": "engage in constructive disagreement",
+          "reversed": "stop needless competition"
+        },
+        "zh": {
+          "upright": "参与建设性争论",
+          "reversed": "停止无谓竞争"
+        },
+        "ja": {
+          "upright": "建設的に意見を交わす",
+          "reversed": "無用な競争をやめる"
+        },
+        "fr": {
+          "upright": "débattre utilement",
+          "reversed": "cesser la rivalité inutile"
+        },
+        "es": {
+          "upright": "debatir con respeto",
+          "reversed": "dejar la rivalidad inútil"
+        },
+        "pt": {
+          "upright": "debater com respeito",
+          "reversed": "parar rivalidade inútil"
+        }
+      }
+    },
+    {
+      "id": "rws-27",
+      "names": {
+        "en": "Six of Wands",
+        "zh": "权杖六",
+        "ja": "ワンドの6",
+        "fr": "Six de Bâtons",
+        "es": "Seis de Bastos",
+        "pt": "Seis de Paus"
+      },
+      "cues": {
+        "en": {
+          "upright": "receive recognition with humility",
+          "reversed": "detach worth from applause"
+        },
+        "zh": {
+          "upright": "谦逊接受认可",
+          "reversed": "不把价值等同赞誉"
+        },
+        "ja": {
+          "upright": "評価を謙虚に受け取る",
+          "reversed": "称賛と価値を分ける"
+        },
+        "fr": {
+          "upright": "accueillir la reconnaissance",
+          "reversed": "ne pas dépendre des louanges"
+        },
+        "es": {
+          "upright": "recibir reconocimiento",
+          "reversed": "no depender del aplauso"
+        },
+        "pt": {
+          "upright": "receber reconhecimento",
+          "reversed": "não depender de aplausos"
+        }
+      }
+    },
+    {
+      "id": "rws-28",
+      "names": {
+        "en": "Seven of Wands",
+        "zh": "权杖七",
+        "ja": "ワンドの7",
+        "fr": "Sept de Bâtons",
+        "es": "Siete de Bastos",
+        "pt": "Sete de Paus"
+      },
+      "cues": {
+        "en": {
+          "upright": "protect a grounded stance",
+          "reversed": "reconsider constant defensiveness"
+        },
+        "zh": {
+          "upright": "守住有依据的立场",
+          "reversed": "检视持续防御"
+        },
+        "ja": {
+          "upright": "根拠ある立場を守る",
+          "reversed": "過剰な防御を見直す"
+        },
+        "fr": {
+          "upright": "défendre sa position",
+          "reversed": "réduire la défensive"
+        },
+        "es": {
+          "upright": "defender una postura sólida",
+          "reversed": "revisar la defensiva"
+        },
+        "pt": {
+          "upright": "defender posição fundamentada",
+          "reversed": "rever a defensiva"
+        }
+      }
+    },
+    {
+      "id": "rws-29",
+      "names": {
+        "en": "Eight of Wands",
+        "zh": "权杖八",
+        "ja": "ワンドの8",
+        "fr": "Huit de Bâtons",
+        "es": "Ocho de Bastos",
+        "pt": "Oito de Paus"
+      },
+      "cues": {
+        "en": {
+          "upright": "move with timely energy",
+          "reversed": "slow an overwhelming pace"
+        },
+        "zh": {
+          "upright": "把握行动节奏",
+          "reversed": "放慢失控的速度"
+        },
+        "ja": {
+          "upright": "好機に動く",
+          "reversed": "速すぎる流れを緩める"
+        },
+        "fr": {
+          "upright": "agir au bon moment",
+          "reversed": "ralentir la cadence"
+        },
+        "es": {
+          "upright": "actuar a tiempo",
+          "reversed": "reducir el ritmo"
+        },
+        "pt": {
+          "upright": "agir no momento certo",
+          "reversed": "reduzir o ritmo"
+        }
+      }
+    },
+    {
+      "id": "rws-30",
+      "names": {
+        "en": "Nine of Wands",
+        "zh": "权杖九",
+        "ja": "ワンドの9",
+        "fr": "Neuf de Bâtons",
+        "es": "Nueve de Bastos",
+        "pt": "Nove de Paus"
+      },
+      "cues": {
+        "en": {
+          "upright": "stay resilient with boundaries",
+          "reversed": "notice exhaustion and suspicion"
+        },
+        "zh": {
+          "upright": "坚持并设置边界",
+          "reversed": "识别疲惫和戒备"
+        },
+        "ja": {
+          "upright": "境界を保って粘る",
+          "reversed": "疲労と警戒に気づく"
+        },
+        "fr": {
+          "upright": "persévérer avec limites",
+          "reversed": "repérer fatigue et méfiance"
+        },
+        "es": {
+          "upright": "persistir con límites",
+          "reversed": "ver cansancio y sospecha"
+        },
+        "pt": {
+          "upright": "persistir com limites",
+          "reversed": "notar cansaço e desconfiança"
+        }
+      }
+    },
+    {
+      "id": "rws-31",
+      "names": {
+        "en": "Ten of Wands",
+        "zh": "权杖十",
+        "ja": "ワンドの10",
+        "fr": "Dix de Bâtons",
+        "es": "Diez de Bastos",
+        "pt": "Dez de Paus"
+      },
+      "cues": {
+        "en": {
+          "upright": "share a heavy load",
+          "reversed": "set down unnecessary duties"
+        },
+        "zh": {
+          "upright": "分担沉重责任",
+          "reversed": "放下多余负担"
+        },
+        "ja": {
+          "upright": "重荷を分け合う",
+          "reversed": "不要な責任を手放す"
+        },
+        "fr": {
+          "upright": "partager la charge",
+          "reversed": "déposer les devoirs superflus"
+        },
+        "es": {
+          "upright": "compartir las cargas",
+          "reversed": "soltar deberes innecesarios"
+        },
+        "pt": {
+          "upright": "dividir o peso",
+          "reversed": "soltar deveres desnecessários"
+        }
+      }
+    },
+    {
+      "id": "rws-32",
+      "names": {
+        "en": "Page of Wands",
+        "zh": "权杖侍从",
+        "ja": "ワンドのペイジ",
+        "fr": "Valet de Bâtons",
+        "es": "Sota de Bastos",
+        "pt": "Pajem de Paus"
+      },
+      "cues": {
+        "en": {
+          "upright": "explore with curiosity",
+          "reversed": "avoid directionless excitement"
+        },
+        "zh": {
+          "upright": "带着好奇探索",
+          "reversed": "避免没有方向的兴奋"
+        },
+        "ja": {
+          "upright": "好奇心で探る",
+          "reversed": "方向のない熱狂を避ける"
+        },
+        "fr": {
+          "upright": "explorer avec curiosité",
+          "reversed": "éviter l'agitation vaine"
+        },
+        "es": {
+          "upright": "explorar con curiosidad",
+          "reversed": "evitar entusiasmo sin rumbo"
+        },
+        "pt": {
+          "upright": "explorar com curiosidade",
+          "reversed": "evitar entusiasmo sem rumo"
+        }
+      }
+    },
+    {
+      "id": "rws-33",
+      "names": {
+        "en": "Knight of Wands",
+        "zh": "权杖骑士",
+        "ja": "ワンドのナイト",
+        "fr": "Cavalier de Bâtons",
+        "es": "Caballero de Bastos",
+        "pt": "Cavaleiro de Paus"
+      },
+      "cues": {
+        "en": {
+          "upright": "pursue a bold adventure",
+          "reversed": "temper impatience and haste"
+        },
+        "zh": {
+          "upright": "勇敢追求新体验",
+          "reversed": "调节急躁与冲动"
+        },
+        "ja": {
+          "upright": "大胆に進む",
+          "reversed": "焦りを和らげる"
+        },
+        "fr": {
+          "upright": "oser une aventure",
+          "reversed": "modérer la précipitation"
+        },
+        "es": {
+          "upright": "atreverse a explorar",
+          "reversed": "moderar la prisa"
+        },
+        "pt": {
+          "upright": "ousar explorar",
+          "reversed": "moderar a pressa"
+        }
+      }
+    },
+    {
+      "id": "rws-34",
+      "names": {
+        "en": "Queen of Wands",
+        "zh": "权杖皇后",
+        "ja": "ワンドのクイーン",
+        "fr": "Reine de Bâtons",
+        "es": "Reina de Bastos",
+        "pt": "Rainha de Paus"
+      },
+      "cues": {
+        "en": {
+          "upright": "lead through warm confidence",
+          "reversed": "notice burnout behind intensity"
+        },
+        "zh": {
+          "upright": "以热忱与自信带领",
+          "reversed": "留意热情背后的耗竭"
+        },
+        "ja": {
+          "upright": "温かな自信で導く",
+          "reversed": "熱意の裏の疲弊に気づく"
+        },
+        "fr": {
+          "upright": "guider avec confiance",
+          "reversed": "voir l'épuisement caché"
+        },
+        "es": {
+          "upright": "liderar con confianza",
+          "reversed": "ver agotamiento oculto"
+        },
+        "pt": {
+          "upright": "liderar com confiança",
+          "reversed": "notar esgotamento oculto"
+        }
+      }
+    },
+    {
+      "id": "rws-35",
+      "names": {
+        "en": "King of Wands",
+        "zh": "权杖国王",
+        "ja": "ワンドのキング",
+        "fr": "Roi de Bâtons",
+        "es": "Rey de Bastos",
+        "pt": "Rei de Paus"
+      },
+      "cues": {
+        "en": {
+          "upright": "inspire with clear vision",
+          "reversed": "avoid domineering ambition"
+        },
+        "zh": {
+          "upright": "以清晰愿景激励",
+          "reversed": "避免控制性的野心"
+        },
+        "ja": {
+          "upright": "明確な展望で導く",
+          "reversed": "支配的な野心を避ける"
+        },
+        "fr": {
+          "upright": "inspirer par une vision",
+          "reversed": "éviter la domination"
+        },
+        "es": {
+          "upright": "inspirar con visión clara",
+          "reversed": "evitar dominar"
+        },
+        "pt": {
+          "upright": "inspirar com visão clara",
+          "reversed": "evitar dominar"
+        }
+      }
+    },
+    {
+      "id": "rws-36",
+      "names": {
+        "en": "Ace of Cups",
+        "zh": "圣杯一",
+        "ja": "カップのエース",
+        "fr": "As de Coupes",
+        "es": "As de Copas",
+        "pt": "Ás de Copas"
+      },
+      "cues": {
+        "en": {
+          "upright": "welcome emotional openness",
+          "reversed": "notice blocked tenderness"
+        },
+        "zh": {
+          "upright": "接纳情感的流动",
+          "reversed": "察觉被阻挡的温柔"
+        },
+        "ja": {
+          "upright": "感情に心を開く",
+          "reversed": "優しさの滞りに気づく"
+        },
+        "fr": {
+          "upright": "accueillir l'émotion",
+          "reversed": "repérer la tendresse bloquée"
+        },
+        "es": {
+          "upright": "abrirse a la emoción",
+          "reversed": "ver ternura bloqueada"
+        },
+        "pt": {
+          "upright": "abrir-se à emoção",
+          "reversed": "notar ternura bloqueada"
+        }
+      }
+    },
+    {
+      "id": "rws-37",
+      "names": {
+        "en": "Two of Cups",
+        "zh": "圣杯二",
+        "ja": "カップの2",
+        "fr": "Deux de Coupes",
+        "es": "Dos de Copas",
+        "pt": "Dois de Copas"
+      },
+      "cues": {
+        "en": {
+          "upright": "build mutual understanding",
+          "reversed": "repair uneven exchange"
+        },
+        "zh": {
+          "upright": "建立相互理解",
+          "reversed": "修复不对等的交流"
+        },
+        "ja": {
+          "upright": "互いに理解し合う",
+          "reversed": "不均衡な交流を直す"
+        },
+        "fr": {
+          "upright": "construire la réciprocité",
+          "reversed": "rééquilibrer l'échange"
+        },
+        "es": {
+          "upright": "construir entendimiento mutuo",
+          "reversed": "equilibrar el intercambio"
+        },
+        "pt": {
+          "upright": "construir compreensão mútua",
+          "reversed": "equilibrar a troca"
+        }
+      }
+    },
+    {
+      "id": "rws-38",
+      "names": {
+        "en": "Three of Cups",
+        "zh": "圣杯三",
+        "ja": "カップの3",
+        "fr": "Trois de Coupes",
+        "es": "Tres de Copas",
+        "pt": "Três de Copas"
+      },
+      "cues": {
+        "en": {
+          "upright": "share joy with friends",
+          "reversed": "notice exclusion or overindulgence"
+        },
+        "zh": {
+          "upright": "与朋友分享喜悦",
+          "reversed": "注意排斥或过度"
+        },
+        "ja": {
+          "upright": "友人と喜びを分かつ",
+          "reversed": "仲間外れや過剰を見直す"
+        },
+        "fr": {
+          "upright": "partager la joie",
+          "reversed": "voir exclusion et excès"
+        },
+        "es": {
+          "upright": "compartir alegría",
+          "reversed": "revisar exclusión o exceso"
+        },
+        "pt": {
+          "upright": "compartilhar alegria",
+          "reversed": "rever exclusão ou excesso"
+        }
+      }
+    },
+    {
+      "id": "rws-39",
+      "names": {
+        "en": "Four of Cups",
+        "zh": "圣杯四",
+        "ja": "カップの4",
+        "fr": "Quatre de Coupes",
+        "es": "Cuatro de Copas",
+        "pt": "Quatro de Copas"
+      },
+      "cues": {
+        "en": {
+          "upright": "make room for new interests",
+          "reversed": "move beyond disengagement"
+        },
+        "zh": {
+          "upright": "给新的兴趣留空间",
+          "reversed": "走出情绪上的疏离"
+        },
+        "ja": {
+          "upright": "新しい関心を迎える",
+          "reversed": "無関心から動き出す"
+        },
+        "fr": {
+          "upright": "ouvrir ses possibilités",
+          "reversed": "sortir du désengagement"
+        },
+        "es": {
+          "upright": "abrirse a opciones",
+          "reversed": "salir del desinterés"
+        },
+        "pt": {
+          "upright": "abrir possibilidades",
+          "reversed": "sair do desinteresse"
+        }
+      }
+    },
+    {
+      "id": "rws-40",
+      "names": {
+        "en": "Five of Cups",
+        "zh": "圣杯五",
+        "ja": "カップの5",
+        "fr": "Cinq de Coupes",
+        "es": "Cinco de Copas",
+        "pt": "Cinco de Copas"
+      },
+      "cues": {
+        "en": {
+          "upright": "acknowledge grief and remaining support",
+          "reversed": "look beyond regret"
+        },
+        "zh": {
+          "upright": "承认失落也看见支持",
+          "reversed": "不困在遗憾里"
+        },
+        "ja": {
+          "upright": "失意を認め支えを見る",
+          "reversed": "後悔から目を上げる"
+        },
+        "fr": {
+          "upright": "reconnaître la peine et l'aide",
+          "reversed": "regarder au-delà des regrets"
+        },
+        "es": {
+          "upright": "reconocer la pérdida y el apoyo",
+          "reversed": "mirar más allá del pesar"
+        },
+        "pt": {
+          "upright": "reconhecer perda e apoio",
+          "reversed": "olhar além do pesar"
+        }
+      }
+    },
+    {
+      "id": "rws-41",
+      "names": {
+        "en": "Six of Cups",
+        "zh": "圣杯六",
+        "ja": "カップの6",
+        "fr": "Six de Coupes",
+        "es": "Seis de Copas",
+        "pt": "Seis de Copas"
+      },
+      "cues": {
+        "en": {
+          "upright": "remember with kindness",
+          "reversed": "release idealized nostalgia"
+        },
+        "zh": {
+          "upright": "温柔回望过去",
+          "reversed": "放下过度美化的怀旧"
+        },
+        "ja": {
+          "upright": "優しく思い出す",
+          "reversed": "理想化した郷愁を緩める"
+        },
+        "fr": {
+          "upright": "se souvenir avec douceur",
+          "reversed": "dépasser la nostalgie idéalisée"
+        },
+        "es": {
+          "upright": "recordar con ternura",
+          "reversed": "soltar la nostalgia idealizada"
+        },
+        "pt": {
+          "upright": "lembrar com carinho",
+          "reversed": "soltar nostalgia idealizada"
+        }
+      }
+    },
+    {
+      "id": "rws-42",
+      "names": {
+        "en": "Seven of Cups",
+        "zh": "圣杯七",
+        "ja": "カップの7",
+        "fr": "Sept de Coupes",
+        "es": "Siete de Copas",
+        "pt": "Sete de Copas"
+      },
+      "cues": {
+        "en": {
+          "upright": "sort hopes from illusions",
+          "reversed": "reduce too many choices"
+        },
+        "zh": {
+          "upright": "区分希望和幻象",
+          "reversed": "减少过多选择"
+        },
+        "ja": {
+          "upright": "希望と幻想を分ける",
+          "reversed": "選択肢を絞る"
+        },
+        "fr": {
+          "upright": "distinguer désir et illusion",
+          "reversed": "réduire les options"
+        },
+        "es": {
+          "upright": "distinguir deseos e ilusiones",
+          "reversed": "reducir opciones"
+        },
+        "pt": {
+          "upright": "distinguir desejos e ilusões",
+          "reversed": "reduzir opções"
+        }
+      }
+    },
+    {
+      "id": "rws-43",
+      "names": {
+        "en": "Eight of Cups",
+        "zh": "圣杯八",
+        "ja": "カップの8",
+        "fr": "Huit de Coupes",
+        "es": "Ocho de Copas",
+        "pt": "Oito de Copas"
+      },
+      "cues": {
+        "en": {
+          "upright": "leave what no longer nourishes",
+          "reversed": "avoid staying from fear"
+        },
+        "zh": {
+          "upright": "离开不再滋养的事物",
+          "reversed": "不因恐惧而停留"
+        },
+        "ja": {
+          "upright": "心を満たさぬものを離れる",
+          "reversed": "恐れから留まらない"
+        },
+        "fr": {
+          "upright": "quitter ce qui n'aide plus",
+          "reversed": "ne pas rester par peur"
+        },
+        "es": {
+          "upright": "dejar lo que ya no nutre",
+          "reversed": "no quedarse por miedo"
+        },
+        "pt": {
+          "upright": "sair do que não nutre",
+          "reversed": "não ficar por medo"
+        }
+      }
+    },
+    {
+      "id": "rws-44",
+      "names": {
+        "en": "Nine of Cups",
+        "zh": "圣杯九",
+        "ja": "カップの9",
+        "fr": "Neuf de Coupes",
+        "es": "Nueve de Copas",
+        "pt": "Nove de Copas"
+      },
+      "cues": {
+        "en": {
+          "upright": "appreciate genuine contentment",
+          "reversed": "notice excess or complacency"
+        },
+        "zh": {
+          "upright": "欣赏真实满足",
+          "reversed": "警惕过度和自满"
+        },
+        "ja": {
+          "upright": "本当の満足を味わう",
+          "reversed": "過剰や慢心を見直す"
+        },
+        "fr": {
+          "upright": "goûter la satisfaction",
+          "reversed": "éviter l'excès"
+        },
+        "es": {
+          "upright": "apreciar la satisfacción",
+          "reversed": "evitar complacencia"
+        },
+        "pt": {
+          "upright": "apreciar a satisfação",
+          "reversed": "evitar acomodação"
+        }
+      }
+    },
+    {
+      "id": "rws-45",
+      "names": {
+        "en": "Ten of Cups",
+        "zh": "圣杯十",
+        "ja": "カップの10",
+        "fr": "Dix de Coupes",
+        "es": "Diez de Copas",
+        "pt": "Dez de Copas"
+      },
+      "cues": {
+        "en": {
+          "upright": "nurture belonging and care",
+          "reversed": "face unmet family ideals"
+        },
+        "zh": {
+          "upright": "珍惜归属与关爱",
+          "reversed": "正视未实现的家庭期待"
+        },
+        "ja": {
+          "upright": "居場所と愛情を育む",
+          "reversed": "家族への期待を見直す"
+        },
+        "fr": {
+          "upright": "cultiver l'appartenance",
+          "reversed": "revoir les idéaux familiaux"
+        },
+        "es": {
+          "upright": "cultivar pertenencia",
+          "reversed": "revisar ideales familiares"
+        },
+        "pt": {
+          "upright": "cultivar pertencimento",
+          "reversed": "rever ideais familiares"
+        }
+      }
+    },
+    {
+      "id": "rws-46",
+      "names": {
+        "en": "Page of Cups",
+        "zh": "圣杯侍从",
+        "ja": "カップのペイジ",
+        "fr": "Valet de Coupes",
+        "es": "Sota de Copas",
+        "pt": "Pajem de Copas"
+      },
+      "cues": {
+        "en": {
+          "upright": "express feelings with curiosity",
+          "reversed": "notice emotional avoidance"
+        },
+        "zh": {
+          "upright": "好奇地表达感受",
+          "reversed": "察觉回避情绪"
+        },
+        "ja": {
+          "upright": "好奇心で気持ちを伝える",
+          "reversed": "感情の回避に気づく"
+        },
+        "fr": {
+          "upright": "exprimer ses sentiments",
+          "reversed": "voir l'évitement émotionnel"
+        },
+        "es": {
+          "upright": "expresar sentimientos",
+          "reversed": "ver evasión emocional"
+        },
+        "pt": {
+          "upright": "expressar sentimentos",
+          "reversed": "notar fuga emocional"
+        }
+      }
+    },
+    {
+      "id": "rws-47",
+      "names": {
+        "en": "Knight of Cups",
+        "zh": "圣杯骑士",
+        "ja": "カップのナイト",
+        "fr": "Cavalier de Coupes",
+        "es": "Caballero de Copas",
+        "pt": "Cavaleiro de Copas"
+      },
+      "cues": {
+        "en": {
+          "upright": "bring warmth to a connection",
+          "reversed": "moderate romantic idealization"
+        },
+        "zh": {
+          "upright": "为关系注入温度",
+          "reversed": "调节感情理想化"
+        },
+        "ja": {
+          "upright": "関係に温かさを運ぶ",
+          "reversed": "恋愛の理想化を抑える"
+        },
+        "fr": {
+          "upright": "apporter de la douceur",
+          "reversed": "modérer l'idéalisation"
+        },
+        "es": {
+          "upright": "aportar calidez",
+          "reversed": "moderar idealización"
+        },
+        "pt": {
+          "upright": "trazer afeto",
+          "reversed": "moderar idealização"
+        }
+      }
+    },
+    {
+      "id": "rws-48",
+      "names": {
+        "en": "Queen of Cups",
+        "zh": "圣杯皇后",
+        "ja": "カップのクイーン",
+        "fr": "Reine de Coupes",
+        "es": "Reina de Copas",
+        "pt": "Rainha de Copas"
+      },
+      "cues": {
+        "en": {
+          "upright": "care with emotional boundaries",
+          "reversed": "do not absorb every feeling"
+        },
+        "zh": {
+          "upright": "有边界地关爱",
+          "reversed": "不承担所有情绪"
+        },
+        "ja": {
+          "upright": "境界を持って思いやる",
+          "reversed": "全ての感情を背負わない"
+        },
+        "fr": {
+          "upright": "prendre soin avec limites",
+          "reversed": "ne pas tout absorber"
+        },
+        "es": {
+          "upright": "cuidar con límites",
+          "reversed": "no absorberlo todo"
+        },
+        "pt": {
+          "upright": "cuidar com limites",
+          "reversed": "não absorver tudo"
+        }
+      }
+    },
+    {
+      "id": "rws-49",
+      "names": {
+        "en": "King of Cups",
+        "zh": "圣杯国王",
+        "ja": "カップのキング",
+        "fr": "Roi de Coupes",
+        "es": "Rey de Copas",
+        "pt": "Rei de Copas"
+      },
+      "cues": {
+        "en": {
+          "upright": "listen with emotional steadiness",
+          "reversed": "avoid hiding all vulnerability"
+        },
+        "zh": {
+          "upright": "以稳定态度倾听",
+          "reversed": "不要隐藏全部脆弱"
+        },
+        "ja": {
+          "upright": "落ち着いて耳を傾ける",
+          "reversed": "弱さを隠しすぎない"
+        },
+        "fr": {
+          "upright": "écouter avec stabilité",
+          "reversed": "ne pas cacher sa fragilité"
+        },
+        "es": {
+          "upright": "escuchar con calma",
+          "reversed": "no ocultar toda fragilidad"
+        },
+        "pt": {
+          "upright": "escutar com calma",
+          "reversed": "não esconder fragilidade"
+        }
+      }
+    },
+    {
+      "id": "rws-50",
+      "names": {
+        "en": "Ace of Swords",
+        "zh": "宝剑一",
+        "ja": "ソードのエース",
+        "fr": "As d’Épées",
+        "es": "As de Espadas",
+        "pt": "Ás de Espadas"
+      },
+      "cues": {
+        "en": {
+          "upright": "seek a clear idea",
+          "reversed": "question harsh certainty"
+        },
+        "zh": {
+          "upright": "寻找清晰观点",
+          "reversed": "检视过度确信"
+        },
+        "ja": {
+          "upright": "明晰な考えを探す",
+          "reversed": "厳しすぎる確信を疑う"
+        },
+        "fr": {
+          "upright": "chercher la clarté",
+          "reversed": "questionner les certitudes dures"
+        },
+        "es": {
+          "upright": "buscar claridad",
+          "reversed": "cuestionar certezas rígidas"
+        },
+        "pt": {
+          "upright": "buscar clareza",
+          "reversed": "questionar certezas rígidas"
+        }
+      }
+    },
+    {
+      "id": "rws-51",
+      "names": {
+        "en": "Two of Swords",
+        "zh": "宝剑二",
+        "ja": "ソードの2",
+        "fr": "Deux d’Épées",
+        "es": "Dos de Espadas",
+        "pt": "Dois de Espadas"
+      },
+      "cues": {
+        "en": {
+          "upright": "weigh an unresolved choice",
+          "reversed": "avoid prolonged avoidance"
+        },
+        "zh": {
+          "upright": "认真权衡未决选择",
+          "reversed": "避免无限回避"
+        },
+        "ja": {
+          "upright": "未決の選択を量る",
+          "reversed": "先延ばしを減らす"
+        },
+        "fr": {
+          "upright": "peser un choix difficile",
+          "reversed": "cesser d'éviter"
+        },
+        "es": {
+          "upright": "sopesar una decisión",
+          "reversed": "dejar de evitar"
+        },
+        "pt": {
+          "upright": "ponderar uma escolha",
+          "reversed": "parar de evitar"
+        }
+      }
+    },
+    {
+      "id": "rws-52",
+      "names": {
+        "en": "Three of Swords",
+        "zh": "宝剑三",
+        "ja": "ソードの3",
+        "fr": "Trois d’Épées",
+        "es": "Tres de Espadas",
+        "pt": "Três de Espadas"
+      },
+      "cues": {
+        "en": {
+          "upright": "name an emotional wound",
+          "reversed": "begin honest repair"
+        },
+        "zh": {
+          "upright": "承认情感伤痛",
+          "reversed": "开始诚实修复"
+        },
+        "ja": {
+          "upright": "心の傷を言葉にする",
+          "reversed": "正直に修復を始める"
+        },
+        "fr": {
+          "upright": "nommer une blessure",
+          "reversed": "commencer à réparer"
+        },
+        "es": {
+          "upright": "nombrar una herida",
+          "reversed": "comenzar a reparar"
+        },
+        "pt": {
+          "upright": "nomear uma ferida",
+          "reversed": "começar a reparar"
+        }
+      }
+    },
+    {
+      "id": "rws-53",
+      "names": {
+        "en": "Four of Swords",
+        "zh": "宝剑四",
+        "ja": "ソードの4",
+        "fr": "Quatre d’Épées",
+        "es": "Cuatro de Espadas",
+        "pt": "Quatro de Espadas"
+      },
+      "cues": {
+        "en": {
+          "upright": "rest and recover perspective",
+          "reversed": "recognize overdue rest"
+        },
+        "zh": {
+          "upright": "休息并恢复视角",
+          "reversed": "承认休息已被拖延"
+        },
+        "ja": {
+          "upright": "休み視野を回復する",
+          "reversed": "休息不足を認める"
+        },
+        "fr": {
+          "upright": "se reposer pour voir clair",
+          "reversed": "reconnaître le repos nécessaire"
+        },
+        "es": {
+          "upright": "descansar y aclararse",
+          "reversed": "reconocer descanso pendiente"
+        },
+        "pt": {
+          "upright": "descansar para clarear",
+          "reversed": "reconhecer descanso necessário"
+        }
+      }
+    },
+    {
+      "id": "rws-54",
+      "names": {
+        "en": "Five of Swords",
+        "zh": "宝剑五",
+        "ja": "ソードの5",
+        "fr": "Cinq d’Épées",
+        "es": "Cinco de Espadas",
+        "pt": "Cinco de Espadas"
+      },
+      "cues": {
+        "en": {
+          "upright": "choose peace over winning",
+          "reversed": "repair a damaging contest"
+        },
+        "zh": {
+          "upright": "比起获胜更重视和平",
+          "reversed": "修复破坏性争执"
+        },
+        "ja": {
+          "upright": "勝ち負けより平和を選ぶ",
+          "reversed": "傷つけた争いを直す"
+        },
+        "fr": {
+          "upright": "choisir la paix",
+          "reversed": "réparer une lutte blessante"
+        },
+        "es": {
+          "upright": "elegir paz sobre ganar",
+          "reversed": "reparar una disputa dañina"
+        },
+        "pt": {
+          "upright": "escolher paz em vez de vencer",
+          "reversed": "reparar disputa danosa"
+        }
+      }
+    },
+    {
+      "id": "rws-55",
+      "names": {
+        "en": "Six of Swords",
+        "zh": "宝剑六",
+        "ja": "ソードの6",
+        "fr": "Six d’Épées",
+        "es": "Seis de Espadas",
+        "pt": "Seis de Espadas"
+      },
+      "cues": {
+        "en": {
+          "upright": "move toward calmer conditions",
+          "reversed": "avoid dragging old conflict"
+        },
+        "zh": {
+          "upright": "走向更平静的环境",
+          "reversed": "不再携带旧争执"
+        },
+        "ja": {
+          "upright": "穏やかな環境へ移る",
+          "reversed": "古い争いを引きずらない"
+        },
+        "fr": {
+          "upright": "aller vers le calme",
+          "reversed": "ne pas traîner les conflits"
+        },
+        "es": {
+          "upright": "avanzar hacia la calma",
+          "reversed": "no arrastrar conflictos"
+        },
+        "pt": {
+          "upright": "ir em direção à calma",
+          "reversed": "não carregar conflitos"
+        }
+      }
+    },
+    {
+      "id": "rws-56",
+      "names": {
+        "en": "Seven of Swords",
+        "zh": "宝剑七",
+        "ja": "ソードの7",
+        "fr": "Sept d’Épées",
+        "es": "Siete de Espadas",
+        "pt": "Sete de Espadas"
+      },
+      "cues": {
+        "en": {
+          "upright": "act with discretion",
+          "reversed": "avoid secrecy that harms trust"
+        },
+        "zh": {
+          "upright": "保持谨慎与策略",
+          "reversed": "避免伤害信任的隐瞒"
+        },
+        "ja": {
+          "upright": "慎重に行動する",
+          "reversed": "信頼を損なう秘密を避ける"
+        },
+        "fr": {
+          "upright": "agir avec discrétion",
+          "reversed": "éviter le secret nuisible"
+        },
+        "es": {
+          "upright": "actuar con discreción",
+          "reversed": "evitar secretos dañinos"
+        },
+        "pt": {
+          "upright": "agir com discrição",
+          "reversed": "evitar segredos nocivos"
+        }
+      }
+    },
+    {
+      "id": "rws-57",
+      "names": {
+        "en": "Eight of Swords",
+        "zh": "宝剑八",
+        "ja": "ソードの8",
+        "fr": "Huit d’Épées",
+        "es": "Ocho de Espadas",
+        "pt": "Oito de Espadas"
+      },
+      "cues": {
+        "en": {
+          "upright": "question limiting assumptions",
+          "reversed": "notice that options remain"
+        },
+        "zh": {
+          "upright": "质疑限制性假设",
+          "reversed": "看见仍有选择"
+        },
+        "ja": {
+          "upright": "制限する思い込みを疑う",
+          "reversed": "選択肢を見直す"
+        },
+        "fr": {
+          "upright": "questionner ses entraves",
+          "reversed": "revoir les options possibles"
+        },
+        "es": {
+          "upright": "cuestionar limitaciones",
+          "reversed": "ver opciones disponibles"
+        },
+        "pt": {
+          "upright": "questionar limitações",
+          "reversed": "ver opções disponíveis"
+        }
+      }
+    },
+    {
+      "id": "rws-58",
+      "names": {
+        "en": "Nine of Swords",
+        "zh": "宝剑九",
+        "ja": "ソードの9",
+        "fr": "Neuf d’Épées",
+        "es": "Nueve de Espadas",
+        "pt": "Nove de Espadas"
+      },
+      "cues": {
+        "en": {
+          "upright": "face anxious thoughts gently",
+          "reversed": "seek support rather than rumination"
+        },
+        "zh": {
+          "upright": "温和面对焦虑想法",
+          "reversed": "以求助代替反刍"
+        },
+        "ja": {
+          "upright": "不安な考えに優しく向き合う",
+          "reversed": "反芻より支援を求める"
+        },
+        "fr": {
+          "upright": "apaiser ses inquiétudes",
+          "reversed": "chercher de l'aide"
+        },
+        "es": {
+          "upright": "afrontar preocupaciones",
+          "reversed": "buscar apoyo"
+        },
+        "pt": {
+          "upright": "acolher preocupações",
+          "reversed": "buscar apoio"
+        }
+      }
+    },
+    {
+      "id": "rws-59",
+      "names": {
+        "en": "Ten of Swords",
+        "zh": "宝剑十",
+        "ja": "ソードの10",
+        "fr": "Dix d’Épées",
+        "es": "Diez de Espadas",
+        "pt": "Dez de Espadas"
+      },
+      "cues": {
+        "en": {
+          "upright": "allow a difficult ending",
+          "reversed": "begin recovery without denial"
+        },
+        "zh": {
+          "upright": "承认艰难的结束",
+          "reversed": "不否认伤痛地复原"
+        },
+        "ja": {
+          "upright": "困難な終わりを認める",
+          "reversed": "痛みを否定せず回復する"
+        },
+        "fr": {
+          "upright": "accepter une fin pénible",
+          "reversed": "guérir sans nier la peine"
+        },
+        "es": {
+          "upright": "aceptar un final duro",
+          "reversed": "sanar sin negar el dolor"
+        },
+        "pt": {
+          "upright": "aceitar um fim difícil",
+          "reversed": "recuperar sem negar a dor"
+        }
+      }
+    },
+    {
+      "id": "rws-60",
+      "names": {
+        "en": "Page of Swords",
+        "zh": "宝剑侍从",
+        "ja": "ソードのペイジ",
+        "fr": "Valet d’Épées",
+        "es": "Sota de Espadas",
+        "pt": "Pajem de Espadas"
+      },
+      "cues": {
+        "en": {
+          "upright": "ask honest questions",
+          "reversed": "avoid gossip and snap judgments"
+        },
+        "zh": {
+          "upright": "提出诚实的问题",
+          "reversed": "避免流言与武断"
+        },
+        "ja": {
+          "upright": "率直に問いかける",
+          "reversed": "噂や即断を避ける"
+        },
+        "fr": {
+          "upright": "poser des questions sincères",
+          "reversed": "éviter les ragots"
+        },
+        "es": {
+          "upright": "hacer preguntas sinceras",
+          "reversed": "evitar rumores"
+        },
+        "pt": {
+          "upright": "fazer perguntas sinceras",
+          "reversed": "evitar boatos"
+        }
+      }
+    },
+    {
+      "id": "rws-61",
+      "names": {
+        "en": "Knight of Swords",
+        "zh": "宝剑骑士",
+        "ja": "ソードのナイト",
+        "fr": "Cavalier d’Épées",
+        "es": "Caballero de Espadas",
+        "pt": "Cavaleiro de Espadas"
+      },
+      "cues": {
+        "en": {
+          "upright": "act on truth with care",
+          "reversed": "slow blunt confrontation"
+        },
+        "zh": {
+          "upright": "谨慎地依据事实行动",
+          "reversed": "放缓尖锐对抗"
+        },
+        "ja": {
+          "upright": "事実に基づき丁寧に動く",
+          "reversed": "強引な対立を和らげる"
+        },
+        "fr": {
+          "upright": "agir avec franchise",
+          "reversed": "adoucir la confrontation"
+        },
+        "es": {
+          "upright": "actuar con franqueza",
+          "reversed": "suavizar confrontación"
+        },
+        "pt": {
+          "upright": "agir com franqueza",
+          "reversed": "suavizar confrontos"
+        }
+      }
+    },
+    {
+      "id": "rws-62",
+      "names": {
+        "en": "Queen of Swords",
+        "zh": "宝剑皇后",
+        "ja": "ソードのクイーン",
+        "fr": "Reine d’Épées",
+        "es": "Reina de Espadas",
+        "pt": "Rainha de Espadas"
+      },
+      "cues": {
+        "en": {
+          "upright": "set clear fair boundaries",
+          "reversed": "avoid emotional distance as defense"
+        },
+        "zh": {
+          "upright": "设立清晰公正的边界",
+          "reversed": "别用冷漠防御"
+        },
+        "ja": {
+          "upright": "明確で公正な境界を持つ",
+          "reversed": "冷淡さで守らない"
+        },
+        "fr": {
+          "upright": "fixer des limites justes",
+          "reversed": "éviter la froideur défensive"
+        },
+        "es": {
+          "upright": "poner límites justos",
+          "reversed": "evitar frialdad defensiva"
+        },
+        "pt": {
+          "upright": "definir limites justos",
+          "reversed": "evitar frieza defensiva"
+        }
+      }
+    },
+    {
+      "id": "rws-63",
+      "names": {
+        "en": "King of Swords",
+        "zh": "宝剑国王",
+        "ja": "ソードのキング",
+        "fr": "Roi d’Épées",
+        "es": "Rey de Espadas",
+        "pt": "Rei de Espadas"
+      },
+      "cues": {
+        "en": {
+          "upright": "think strategically and fairly",
+          "reversed": "revisit rigid judgments"
+        },
+        "zh": {
+          "upright": "以公正策略思考",
+          "reversed": "重新审视僵硬判断"
+        },
+        "ja": {
+          "upright": "公正に戦略を立てる",
+          "reversed": "硬い判断を見直す"
+        },
+        "fr": {
+          "upright": "raisonner avec équité",
+          "reversed": "réviser les jugements rigides"
+        },
+        "es": {
+          "upright": "pensar con equidad",
+          "reversed": "revisar juicios rígidos"
+        },
+        "pt": {
+          "upright": "pensar com justiça",
+          "reversed": "rever julgamentos rígidos"
+        }
+      }
+    },
+    {
+      "id": "rws-64",
+      "names": {
+        "en": "Ace of Pentacles",
+        "zh": "星币一",
+        "ja": "ペンタクルのエース",
+        "fr": "As de Deniers",
+        "es": "As de Oros",
+        "pt": "Ás de Ouros"
+      },
+      "cues": {
+        "en": {
+          "upright": "begin a practical opportunity",
+          "reversed": "check unrealistic promises"
+        },
+        "zh": {
+          "upright": "把握务实的新机会",
+          "reversed": "检查不现实的承诺"
+        },
+        "ja": {
+          "upright": "現実的な機会を始める",
+          "reversed": "非現実的な約束を疑う"
+        },
+        "fr": {
+          "upright": "saisir une occasion concrète",
+          "reversed": "vérifier les promesses"
+        },
+        "es": {
+          "upright": "aprovechar una oportunidad",
+          "reversed": "revisar promesas irreales"
+        },
+        "pt": {
+          "upright": "aproveitar uma oportunidade",
+          "reversed": "rever promessas irreais"
+        }
+      }
+    },
+    {
+      "id": "rws-65",
+      "names": {
+        "en": "Two of Pentacles",
+        "zh": "星币二",
+        "ja": "ペンタクルの2",
+        "fr": "Deux de Deniers",
+        "es": "Dos de Oros",
+        "pt": "Dois de Ouros"
+      },
+      "cues": {
+        "en": {
+          "upright": "balance competing demands",
+          "reversed": "reduce unsustainable juggling"
+        },
+        "zh": {
+          "upright": "平衡多重责任",
+          "reversed": "减少不可持续的周旋"
+        },
+        "ja": {
+          "upright": "複数の用事を調整する",
+          "reversed": "無理なやりくりを減らす"
+        },
+        "fr": {
+          "upright": "équilibrer les priorités",
+          "reversed": "réduire les acrobaties"
+        },
+        "es": {
+          "upright": "equilibrar prioridades",
+          "reversed": "reducir malabarismos"
+        },
+        "pt": {
+          "upright": "equilibrar prioridades",
+          "reversed": "reduzir malabarismos"
+        }
+      }
+    },
+    {
+      "id": "rws-66",
+      "names": {
+        "en": "Three of Pentacles",
+        "zh": "星币三",
+        "ja": "ペンタクルの3",
+        "fr": "Trois de Deniers",
+        "es": "Tres de Oros",
+        "pt": "Três de Ouros"
+      },
+      "cues": {
+        "en": {
+          "upright": "learn through collaboration",
+          "reversed": "repair teamwork gaps"
+        },
+        "zh": {
+          "upright": "通过合作提升能力",
+          "reversed": "修复协作缺口"
+        },
+        "ja": {
+          "upright": "協力して学ぶ",
+          "reversed": "連携の不足を直す"
+        },
+        "fr": {
+          "upright": "apprendre ensemble",
+          "reversed": "réparer l'équipe"
+        },
+        "es": {
+          "upright": "aprender en equipo",
+          "reversed": "reparar la colaboración"
+        },
+        "pt": {
+          "upright": "aprender em equipe",
+          "reversed": "reparar a colaboração"
+        }
+      }
+    },
+    {
+      "id": "rws-67",
+      "names": {
+        "en": "Four of Pentacles",
+        "zh": "星币四",
+        "ja": "ペンタクルの4",
+        "fr": "Quatre de Deniers",
+        "es": "Cuatro de Oros",
+        "pt": "Quatro de Ouros"
+      },
+      "cues": {
+        "en": {
+          "upright": "protect resources wisely",
+          "reversed": "notice fear-driven hoarding"
+        },
+        "zh": {
+          "upright": "审慎保护资源",
+          "reversed": "觉察因恐惧而囤积"
+        },
+        "ja": {
+          "upright": "資源を大切に守る",
+          "reversed": "恐れからの抱え込みに気づく"
+        },
+        "fr": {
+          "upright": "protéger ses ressources",
+          "reversed": "voir la peur de manquer"
+        },
+        "es": {
+          "upright": "proteger recursos",
+          "reversed": "notar temor a perder"
+        },
+        "pt": {
+          "upright": "proteger recursos",
+          "reversed": "notar medo de perder"
+        }
+      }
+    },
+    {
+      "id": "rws-68",
+      "names": {
+        "en": "Five of Pentacles",
+        "zh": "星币五",
+        "ja": "ペンタクルの5",
+        "fr": "Cinq de Deniers",
+        "es": "Cinco de Oros",
+        "pt": "Cinco de Ouros"
+      },
+      "cues": {
+        "en": {
+          "upright": "recognize hardship and ask for help",
+          "reversed": "notice overlooked support"
+        },
+        "zh": {
+          "upright": "承认困难并寻求帮助",
+          "reversed": "发现被忽视的支持"
+        },
+        "ja": {
+          "upright": "困難を認め助けを求める",
+          "reversed": "見落とした支えを見る"
+        },
+        "fr": {
+          "upright": "demander de l'aide",
+          "reversed": "voir le soutien disponible"
+        },
+        "es": {
+          "upright": "pedir ayuda",
+          "reversed": "ver apoyo disponible"
+        },
+        "pt": {
+          "upright": "pedir ajuda",
+          "reversed": "ver apoio disponível"
+        }
+      }
+    },
+    {
+      "id": "rws-69",
+      "names": {
+        "en": "Six of Pentacles",
+        "zh": "星币六",
+        "ja": "ペンタクルの6",
+        "fr": "Six de Deniers",
+        "es": "Seis de Oros",
+        "pt": "Seis de Ouros"
+      },
+      "cues": {
+        "en": {
+          "upright": "share fairly and respectfully",
+          "reversed": "review unequal dependence"
+        },
+        "zh": {
+          "upright": "公平尊重地分享",
+          "reversed": "检视不平等依赖"
+        },
+        "ja": {
+          "upright": "公平に分け合う",
+          "reversed": "不均衡な依存を見直す"
+        },
+        "fr": {
+          "upright": "partager avec justice",
+          "reversed": "revoir les dépendances"
+        },
+        "es": {
+          "upright": "compartir con justicia",
+          "reversed": "revisar dependencias"
+        },
+        "pt": {
+          "upright": "compartilhar com justiça",
+          "reversed": "rever dependências"
+        }
+      }
+    },
+    {
+      "id": "rws-70",
+      "names": {
+        "en": "Seven of Pentacles",
+        "zh": "星币七",
+        "ja": "ペンタクルの7",
+        "fr": "Sept de Deniers",
+        "es": "Siete de Oros",
+        "pt": "Sete de Ouros"
+      },
+      "cues": {
+        "en": {
+          "upright": "review patient investment",
+          "reversed": "avoid endless waiting"
+        },
+        "zh": {
+          "upright": "评估耐心投入的成果",
+          "reversed": "避免无限等待"
+        },
+        "ja": {
+          "upright": "積み重ねを振り返る",
+          "reversed": "待ち続けすぎない"
+        },
+        "fr": {
+          "upright": "évaluer ses efforts",
+          "reversed": "éviter l'attente sans fin"
+        },
+        "es": {
+          "upright": "evaluar esfuerzos",
+          "reversed": "evitar esperar sin fin"
+        },
+        "pt": {
+          "upright": "avaliar esforços",
+          "reversed": "evitar esperar sem fim"
+        }
+      }
+    },
+    {
+      "id": "rws-71",
+      "names": {
+        "en": "Eight of Pentacles",
+        "zh": "星币八",
+        "ja": "ペンタクルの8",
+        "fr": "Huit de Deniers",
+        "es": "Ocho de Oros",
+        "pt": "Oito de Ouros"
+      },
+      "cues": {
+        "en": {
+          "upright": "practice a craft steadily",
+          "reversed": "notice perfectionism or monotony"
+        },
+        "zh": {
+          "upright": "稳步磨练技艺",
+          "reversed": "注意完美主义或单调"
+        },
+        "ja": {
+          "upright": "技術を着実に磨く",
+          "reversed": "完璧主義を見直す"
+        },
+        "fr": {
+          "upright": "pratiquer avec constance",
+          "reversed": "revoir le perfectionnisme"
+        },
+        "es": {
+          "upright": "practicar con constancia",
+          "reversed": "revisar perfeccionismo"
+        },
+        "pt": {
+          "upright": "praticar com constância",
+          "reversed": "rever perfeccionismo"
+        }
+      }
+    },
+    {
+      "id": "rws-72",
+      "names": {
+        "en": "Nine of Pentacles",
+        "zh": "星币九",
+        "ja": "ペンタクルの9",
+        "fr": "Neuf de Deniers",
+        "es": "Nueve de Oros",
+        "pt": "Nove de Ouros"
+      },
+      "cues": {
+        "en": {
+          "upright": "enjoy earned independence",
+          "reversed": "separate worth from possessions"
+        },
+        "zh": {
+          "upright": "享受努力得来的独立",
+          "reversed": "不以占有衡量价值"
+        },
+        "ja": {
+          "upright": "得た自立を味わう",
+          "reversed": "所有物で価値を測らない"
+        },
+        "fr": {
+          "upright": "savourer son autonomie",
+          "reversed": "détacher valeur et biens"
+        },
+        "es": {
+          "upright": "disfrutar autonomía",
+          "reversed": "separar valor y posesiones"
+        },
+        "pt": {
+          "upright": "apreciar autonomia",
+          "reversed": "separar valor e posses"
+        }
+      }
+    },
+    {
+      "id": "rws-73",
+      "names": {
+        "en": "Ten of Pentacles",
+        "zh": "星币十",
+        "ja": "ペンタクルの10",
+        "fr": "Dix de Deniers",
+        "es": "Diez de Oros",
+        "pt": "Dez de Ouros"
+      },
+      "cues": {
+        "en": {
+          "upright": "build lasting community support",
+          "reversed": "question inherited expectations"
+        },
+        "zh": {
+          "upright": "建设长久的共同支持",
+          "reversed": "检视继承的期待"
+        },
+        "ja": {
+          "upright": "長く続く支えを築く",
+          "reversed": "受け継いだ期待を問い直す"
+        },
+        "fr": {
+          "upright": "bâtir un soutien durable",
+          "reversed": "questionner l'héritage"
+        },
+        "es": {
+          "upright": "crear apoyo duradero",
+          "reversed": "cuestionar expectativas heredadas"
+        },
+        "pt": {
+          "upright": "criar apoio duradouro",
+          "reversed": "questionar expectativas herdadas"
+        }
+      }
+    },
+    {
+      "id": "rws-74",
+      "names": {
+        "en": "Page of Pentacles",
+        "zh": "星币侍从",
+        "ja": "ペンタクルのペイジ",
+        "fr": "Valet de Deniers",
+        "es": "Sota de Oros",
+        "pt": "Pajem de Ouros"
+      },
+      "cues": {
+        "en": {
+          "upright": "study a practical next step",
+          "reversed": "avoid stalled preparation"
+        },
+        "zh": {
+          "upright": "学习现实的下一步",
+          "reversed": "避免准备停滞"
+        },
+        "ja": {
+          "upright": "現実的な一歩を学ぶ",
+          "reversed": "準備の停滞を避ける"
+        },
+        "fr": {
+          "upright": "apprendre un geste utile",
+          "reversed": "éviter la préparation sans fin"
+        },
+        "es": {
+          "upright": "aprender un paso útil",
+          "reversed": "evitar preparación eterna"
+        },
+        "pt": {
+          "upright": "aprender um passo útil",
+          "reversed": "evitar preparo infinito"
+        }
+      }
+    },
+    {
+      "id": "rws-75",
+      "names": {
+        "en": "Knight of Pentacles",
+        "zh": "星币骑士",
+        "ja": "ペンタクルのナイト",
+        "fr": "Cavalier de Deniers",
+        "es": "Caballero de Oros",
+        "pt": "Cavaleiro de Ouros"
+      },
+      "cues": {
+        "en": {
+          "upright": "progress with reliability",
+          "reversed": "review excessive caution"
+        },
+        "zh": {
+          "upright": "稳健可靠地推进",
+          "reversed": "检视过度谨慎"
+        },
+        "ja": {
+          "upright": "着実に進める",
+          "reversed": "慎重すぎる姿勢を見直す"
+        },
+        "fr": {
+          "upright": "avancer avec fiabilité",
+          "reversed": "revoir l'excès de prudence"
+        },
+        "es": {
+          "upright": "avanzar con fiabilidad",
+          "reversed": "revisar prudencia excesiva"
+        },
+        "pt": {
+          "upright": "avançar com firmeza",
+          "reversed": "rever cautela excessiva"
+        }
+      }
+    },
+    {
+      "id": "rws-76",
+      "names": {
+        "en": "Queen of Pentacles",
+        "zh": "星币皇后",
+        "ja": "ペンタクルのクイーン",
+        "fr": "Reine de Deniers",
+        "es": "Reina de Oros",
+        "pt": "Rainha de Ouros"
+      },
+      "cues": {
+        "en": {
+          "upright": "care for home and wellbeing",
+          "reversed": "balance care with self-care"
+        },
+        "zh": {
+          "upright": "照顾家庭与身心",
+          "reversed": "平衡照顾与自我照顾"
+        },
+        "ja": {
+          "upright": "暮らしを大切にする",
+          "reversed": "自分のケアも忘れない"
+        },
+        "fr": {
+          "upright": "prendre soin du foyer",
+          "reversed": "prendre soin de soi aussi"
+        },
+        "es": {
+          "upright": "cuidar el hogar",
+          "reversed": "cuidarse también"
+        },
+        "pt": {
+          "upright": "cuidar do lar",
+          "reversed": "cuidar de si também"
+        }
+      }
+    },
+    {
+      "id": "rws-77",
+      "names": {
+        "en": "King of Pentacles",
+        "zh": "星币国王",
+        "ja": "ペンタクルのキング",
+        "fr": "Roi de Deniers",
+        "es": "Rey de Oros",
+        "pt": "Rei de Ouros"
+      },
+      "cues": {
+        "en": {
+          "upright": "steward resources responsibly",
+          "reversed": "avoid defining life only by wealth"
+        },
+        "zh": {
+          "upright": "负责地管理资源",
+          "reversed": "不只用财富定义人生"
+        },
+        "ja": {
+          "upright": "資源を責任持って扱う",
+          "reversed": "富だけで人生を測らない"
+        },
+        "fr": {
+          "upright": "gérer ses ressources",
+          "reversed": "ne pas se réduire à l'argent"
+        },
+        "es": {
+          "upright": "gestionar recursos",
+          "reversed": "no vivir solo por dinero"
+        },
+        "pt": {
+          "upright": "gerir recursos",
+          "reversed": "não viver só por dinheiro"
+        }
+      }
+    }
+  ]
+}

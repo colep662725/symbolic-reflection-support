@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Symbolic Reflection Support v1.2 localized reading",
+  "description": "Source-aware wrapper around the stable 1.1 draw result plus original localized symbolic prompts. This does not validate divination truth.",
+  "type": "object",
+  "required": ["reading_version", "language", "type", "raw_result", "reading"],
+  "properties": {
+    "reading_version": {"const": "1.2.0"},
+    "language": {"enum": ["en", "zh", "ja", "fr", "es", "pt"]},
+    "type": {"enum": ["tarot", "iching"]},
+    "raw_result": {
+      "type": "object",
+      "required": ["schema_version", "tool_version", "method", "provenance"],
+      "properties": {
+        "schema_version": {"const": "1.1"},
+        "tool_version": {"type": "string"},
+        "method": {"type": "string"},
+        "provenance": {
+          "type": "object",
+          "required": ["source", "generated_at_utc", "payload_sha256", "digest_scope"],
+          "properties": {
+            "source": {"enum": ["local_system_random", "seeded_demo", "user_supplied_lines", "user_supplied_coins", "user_supplied_card", "user_supplied_hexagram"]},
+            "generated_at_utc": {"type": "string"},
+            "payload_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+            "digest_scope": {"type": "string"},
+            "seed": {"type": "integer"}
+          }
+        }
+      }
+    },
+    "reading": {
+      "type": "object",
+      "required": ["catalog_sha256", "reading_kind"],
+      "properties": {
+        "catalog_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "reading_kind": {"type": "string"},
+        "cards": {
+          "type": "array", "minItems": 1, "maxItems": 78,
+          "items": {"$ref": "#/$defs/card"}
+        },
+        "primary": {"$ref": "#/$defs/hexagram"},
+        "resulting": {"oneOf": [{"type":"null"}, {"$ref":"#/$defs/hexagram"}]},
+        "moving_lines_from_bottom": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 6}}
+      }
+    }
+  },
+  "$defs": {
+    "card": {
+      "type": "object",
+      "required": ["id", "name", "canonical_en", "orientation", "orientation_label", "theme", "reflection_question"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^rws-[0-7][0-9]$"},
+        "name": {"type": "string"},
+        "canonical_en": {"type": "string"},
+        "orientation": {"enum": ["upright", "reversed"]},
+        "orientation_label": {"type": "string"},
+        "theme": {"type": "string"},
+        "reflection_question": {"type": "string"}
+      }
+    },
+    "hexagram": {
+      "type": "object",
+      "required": ["number", "name_zh", "pinyin", "theme", "reflection_question"],
+      "properties": {
+        "number": {"type": "integer", "minimum": 1, "maximum": 64},
+        "name_zh": {"type": "string"},
+        "pinyin": {"type": "string"},
+        "theme": {"type": "string"},
+        "reflection_question": {"type": "string"}
+      }
+    }
+  }
+}
