@@ -1,0 +1,66 @@
+name: Skill, catalogs and optional astronomy
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  base:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ['3.10', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Validate skill and links
+        run: python scripts/validate_skill.py
+      - name: Offline browser catalog parity
+        run: python scripts/build_demo.py --check
+      - name: Unit tests (astronomy tests skip when extra is absent)
+        run: python -m unittest discover -s tests -v
+  astronomy:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ['3.11']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install pinned optional astronomy extra (AGPL)
+        run: python -m pip install -r requirements-astronomy.txt
+      - name: Require the external module; no silently skipped astro job
+        run: python -c "import swisseph; print('Swiss Ephemeris', swisseph.version)"
+      - name: Run astronomy calculations and independent published-calendar fixtures
+        run: python -m unittest tests.test_astronomy -v
+      - name: Cross-check separate low-precision astronomical reference (9 bodies plus ASC/MC)
+        run: python scripts/verify_ephemeris.py --strict
+      - name: Independent twelve-cusp Placidus geometry, public cases
+        run: python scripts/verify_placidus.py --strict
+      - name: Installation diagnostics with required astronomy dependency
+        run: python scripts/install_diagnostics.py --require-astronomy
+      - name: Test whole repository with extra installed
+        run: python -m unittest discover -s tests -v
+
+  modern_windows_binding:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install modern binary binding for Python 3.13 (no source build)
+        run: 'python -m pip install --only-binary=:all: -r requirements-astronomy.txt'
+      - name: Confirm actual installed modern Python distribution
+        run: python -c "import importlib.metadata as m; import swisseph; assert m.version('pysweph') == '2.10.3.6'; print(swisseph.version)"
+      - name: Modern ABI and astronomy regression on real Windows wheel
+        run: python -m unittest discover -s tests -v
+      - name: Real Windows natal/Placidus/model test
+        run: python scripts/verify_placidus.py --strict
