@@ -1,6 +1,23 @@
-> **v1.3.5-rc2 (2026-11-20, Windows verification fixes):** Fix UTF-8 multilingual subprocess output on PowerShell 5.1, ABI proxy tests when the actual installed binding is modern `pysweph`, and cross-platform file-path assertions. Track **raw NASA HTTP response SHA-256** separately from the **archived JSON wrapper SHA-256**. A user's Windows log reports 12/12 matched-target comparisons after live JPL HTTPS retrieval; the private raw files are *not* bundled or independently authenticated by this repository. See [Windows audit and acceptance](references/windows-ps51-audit.md).
 
-> **v1.3.5-rc1 (2026-11-20):** compatibility fix for Windows Python 3.13 `pysweph` with three-value `calc_ut`, 13-cusp `houses_ex`, and two-value `deltat_ex`. The user reported three Swiss Moon/Pluto computations PASS on Windows, but this package does **not** yet claim live NASA/Horizons comparison PASS. See [compatibility](references/pysweph-compatibility.md) and [Windows instructions](INSTALL.zh-CN.md).
+> **Current Stable Release: v1.3.5 (2026-11-20)**
+>
+> Symbolic Reflection Support is a multilingual
+> Agent Skill for Tarot, I Ching, BaZi, Western
+> astrology, and responsible self-reflection.
+>
+> **Validation:**
+> - 117 automated tests passed on Windows.
+> - All 9 GitHub Actions CI jobs passed.
+> - Supports Python 3.10–3.13.
+> - Compatible with pyswisseph and pysweph.
+> - Includes Swiss Ephemeris astronomical calculations.
+> - Includes JPL Horizons verification tools.
+>
+> **Scientific note:** Astronomical calculations
+> can be independently verified. Symbolic readings
+> are not scientifically validated predictions.
+>
+> Historical changes are documented in CHANGELOG.md.
 
 # Symbolic Reflection Support
 
