@@ -1,3 +1,38 @@
+
+
+## v1.3.5 — 2026-11-20 (Stable Release)
+
+First stable public release of Symbolic Reflection Support.
+
+### Features
+- Multilingual Tarot and I Ching reflection tools.
+- 78 Tarot cards and 64 I Ching hexagrams.
+- Six-language symbolic interpretation catalog.
+- BaZi Four Pillars and solar-term calculations.
+- Western natal astronomy and Placidus houses.
+- Offline interactive browser demonstration.
+
+### Verification
+- 117 automated tests passed on Windows.
+- All 9 GitHub Actions CI jobs passed.
+- Python 3.13 and pysweph compatibility verified.
+- Independent astronomical calculation checks.
+- JPL Horizons Moon and Pluto numerical audit
+  reported successful on Windows.
+
+### Stability and Security
+- Fixed Windows UTF-8 compatibility.
+- Fixed Swiss Ephemeris Python ABI differences.
+- Added separate SHA-256 verification scopes.
+- Preserved scientific and symbolic boundaries.
+- Excluded private data and proprietary
+  satellite ephemeris files from distribution.
+
+This stable release is based on v1.3.5-rc2.
+No changes to the core astronomical algorithms.
+
+---
+
 ## v1.3.5-rc2 — 2026-11-20 (Windows verification fix; local artifact only)
 
 - Fix real Windows `pysweph` compatibility test proxy, including `calc_ut` 2/3 return values, `houses_ex` 12/13 cusps, and `deltat_ex` scalar/tuple. Do **not** change the verified astronomical computation formulas.
