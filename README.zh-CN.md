@@ -1,6 +1,27 @@
-> **v1.3.5-rc2（2026-11-20，Windows 实机问题修复）：** 修正 PowerShell 5.1 / Python 3.13 的 UTF-8 多语言子进程输出、`pysweph` 真实新版环境下的兼容测试，以及 `sat\sepm9999.se1` 的 Windows 路径断言。NASA 原始响应 SHA-256 与完整存档 JSON SHA-256 现在分开记录和验证。用户提供的 Windows 审计日志显示 3 项官方目标 × 4 个公开时刻比较均通过；本发布包**不包含**用户的 NASA 原始响应，不能独立认证该次 HTTPS 会话。详见 [Windows 审计与验收](references/windows-ps51-audit.md)。
 
-> **v1.3.5-rc1（2026-11-20）**：修复 Windows Python 3.13 的 `pysweph` 新版 ABI 兼容；添加两返回值/三返回值、12/13宫头、`deltat_ex` 的统一适配与跨版本回归。用户反馈 Swiss 月球、冥王星质心、冥王星本体中心 **3/3 本地计算 PASS**；NASA 官方原始数据和 JPL `9` 对 `999` 的同一时刻直接验收仍待联网取回。详见 [兼容文档](references/pysweph-compatibility.md) 及 [Windows 安装指南](INSTALL.zh-CN.md)。
+> **当前稳定版本：v1.3.5（2026年11月20日）**
+>
+> Symbolic Reflection Support 是一个支持六种语言的
+> 开源 Agent Skill，涵盖塔罗、易经、八字四柱、
+> 西方占星以及情感与自我探索。
+>
+> **验证情况**
+>
+> - Windows 本地 117 项自动测试通过。
+> - GitHub Actions 9 项 CI 任务全部通过。
+> - 支持 Python 3.10–3.13。
+> - 兼容 pyswisseph 与 pysweph。
+> - 支持 Swiss Ephemeris 天文历算。
+> - 提供 NASA/JPL Horizons 数值审计工具。
+>
+> **科学边界**
+>
+> 天文和历法计算可以通过数值方法验证。
+> 塔罗、易经与命理解读属于文化象征和自我反思，
+> 不构成经过科学验证的命运预测。
+>
+> 历史版本更新详见 CHANGELOG.md。
+
 
 # Symbolic Reflection Support · 象征性自我探索 Skill
 
