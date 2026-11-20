@@ -45,8 +45,8 @@ def validate(root: Path = ROOT) -> list[str]:
         problems.append("compatibility exceeds 500 characters")
     if fields.get("license") != "AGPL-3.0-or-later":
         problems.append("License metadata should be AGPL-3.0-or-later")
-    if "version: \"1.3.5-rc1\"" not in head:
-        problems.append("Expected version 1.3.5-rc1 in frontmatter metadata")
+    if 'version: "1.3.5"' not in head:
+        problems.append("Expected version 1.3.5 in frontmatter metadata")
     for relative in ("README.md", "README.zh-CN.md", "LICENSE", "scripts/draw.py",
                      "references/reading-methods.md", "assets/draw.schema.json",
                      ".github/workflows/ci.yml", "tests/test_draw.py", "tests/test_catalog.py",
